@@ -1,0 +1,1900 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "GMat Data Sufficiency Practice",
+      "tests": [
+        {
+          "id": 0,
+          "name": "Test 1",
+          "questions": [
+            {
+              "id": 0,
+              "question": "<p style=\"font-size:20px\">Determine the price of two type A footballs if the total cost of a type A and a type B football is $500.<br/><br/><ul><li>1) Type B football costs $200.</li><li>2) Two type A and three type B footballs costs $1200.</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "Correct answer: EACH statement ALONE is sufficient.<br/>Let A and B represent the number of type A and Type B footballs respectively. Then A + B =  500.<br/>In statement 1, B = 200, hence, from A + B =  500, A =  500 - B = 500 - 200 = $300. Thus 2A = $600. The statement is sufficient.<br/>In statement 2, 2A + 3B = 1200, from A + B =  500,multiplying it by 3, we have 3A + 3B = 1500. Subtracting 2A + 3B = 1200 from 3A + 3B = 1500, we have A = 300; thus 2A = $600. The statement too is sufficient."
+            },
+            {
+              "id": 1,
+              "question": "<p style=\"font-size:20px\">What is the value of the positive number, p?<ul><li>1) One of its divisors is 7.</li><li>2) p is divisible by two positive numbers only</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Correct answer: BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.<br/>In statement 1, since one of the divisor is 7, it implies that the number is a multiple of 7. This allows us to have infinitely many numbers, hence the statement is not sufficient.<br/>In statement 2, the number is divisible by two numbers only. This implies that p is prime since a prime number is divisible by two positive numbers. Since there are infinitely many prime numbers, the statement is not sufficient.<br/>Combining the two statements, we have p a prime number being divisible by 7, hence p must be 7. Therefore, both statements together are sufficient but neither statement alone is sufficient."
+            },
+            {
+              "id": 2,
+              "question": "<p style=\"font-size:20px\">Ann deposited $3000 in her bank account at the beginning of the year. Determine the amount the funds accumulated to.<ul><li>1) The bank offered 4.3% interest rate.</li><li>2) The amount was deposited for a period of 5 years.</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                4
+              ],
+              "explanations": "Correct answer: Statements (1) and (2) TOGETHER are NOT sufficient.<br/>Deposit (P) = 3000.<br/>Accumulated amount = P + (1 + R/100)n where the variables have their usual meaning for compound interest and<br/>Accumulated amount = P + (P × r/100 × n) where the variables have their usual meaning for simple interest.<br/>In statement 1, r =  4.3 and P =  3000 but we are not given the value of n, hence we cannot find the accumulated amount. Further more, the statement does not give more information about the kind of interest offered, hence, it is not sufficient.<br/>In statement 2, n = 5 and P = 3000 but we are not given the value of r, hence we cannot find the accumulated amount. Furthermore, the statement does not give more information about the kind of interest offered, hence, it is not sufficient.<br/>Combining the two statements, P = 3000, r = 4.5 and n = 5 but, the details given are not sufficient since no specific type on interest is disclosed, therefore, we cannot apply the compound or simple interest formula with accuracy. Thus Statements (1) and (2) TOGETHER are NOT sufficient."
+            },
+            {
+              "id": 3,
+              "question": "<p style=\"font-size:20px\">Find the mean of the data.<ul><li>1) The data has 8 data values</li><li>2) The data is 3, 4, 5, 6, 4, 1, 0, 5 </li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "Correct answer: Statement (2) ALONE is sufficient but statement (1) is not sufficient.<br/>Mean  = 1/n (&Sigma;x) where the symbols have their usual meaning.<br/>In statement 1, n = 8, but &Sigma;x is unknown, hence it is not sufficient.<br/>In statement 2, &Sigma;x = (3 + 4 + 5 + 6 + 4 + 1 + 0 + 5) = 28, and n =8 hence, mean = 28/8 = 3.5. The statement is sufficient."
+            },
+            {
+              "id": 4,
+              "question": "<p style=\"font-size:20px\">Determine the volume of a cuboids.<ul><li>1) The length is twice the width and the height is 4 inches.</li><li>2) The length is 6 inches.</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Correct answer: BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.<br/>Volume = length × width × height<br/>In statement 1, let width be x, length = 2x and height = 4<br/>Volume = x × 2x × 4 = 8x<sup>2</sup> cubic inches. Since it is in terms of unknown value, x, it is insufficient.<br/>In statement 2, length = 6 inches but the width and height is unknown hence it is not sufficient to determine the volume.<br/>Combining the two statements, length = 2x = 6 hence x = 3 inches.<br/>width = 3 inches and height = 4 inches.<br/>Volume =  3 × 4 × 6 = 72 cubic inches. Thus , BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
+            },
+            {
+              "id": 5,
+              "question": "<p style=\"font-size:20px\">Find the value of r if 4r + 2t = 14.<ul><li>1) t  = 2.</li><li>2) r > t.</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                0
+              ],
+              "explanations": "Correct answer: Statement (1) ALONE is sufficient but statement (2) is not sufficient.<br/>4r + 2t = 14<br/>In statement 1, t = 2, substituting for t in 4r + 2t = 14, we have<br/>4r + 4 = 14; 4r = 10; r = 2  1/2. The statement is sufficient.<br/>In statement 2, r > t , thus none of this is assigned a numeric value. Thisa implies that the solution of r in 4r + 2t = 14 will be a set of values. This implies that the statement is not sufficient."
+            },
+            {
+              "id": 6,
+              "question": "<p style=\"font-size:20px\">Find the common difference of the arithmetic sequence.<ul><li>1) The third term of the sequence is 1.428.</li><li>2) The first and the fifth terms of the sequence is 1 and 1.856.</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed"
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "Correct answer: Statement (2) ALONE is sufficient but statement (1) is not sufficient. Let the common defference and the first term be represented by d and a respectively; the nth term is given by<br/>an = a + (n - 1)d<br/>In statement 1, third term, a3 = a + (3 - 1)d = 1.428; a + 2d =1.428.<br/>This is one equation with two unknowns hence we cannot determine the value of d. The statement is not sufficient.<br/>In statement 2, a = 1 and a5 = a + (5 - 1)d = 1.856<br/>Substituting for a, we have 1 + 4d = 1.856; d = 0.214.<br/>The common difference is 0.214, therefore, the statement is sufficient."
+            },
+            {
+              "id": 7,
+              "question": "<p style=\"font-size:20px\">Stephenson, a businessman bought an Iron box for $80. Determine his profit.<ul><li>1) He made a 30% profit.</li><li>2) His selling price was $104.</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "Correct answer: EACH statement ALONE is sufficient.<br/>Cost price = $80 is equivalent to 100%.<br/>In statement 1, profit = 30%<br/>= 30/100 × 80 = $24.<br/>Profit = 104 - 80 = $24. The statement is sufficient.<br/>In statement 2, selling price = 104.<br/>selling price = cost price + profit; hence, profit =104 - 80 = $24. The statement is sufficient."
+            },
+            {
+              "id": 8,
+              "question": "<p style=\"font-size:20px\">The ratio of water to alcohol in a 14 cup container is 2:5. Determine the new volume of the liquid in the container.<ul><li>1)  Water is increased by 14%.</li><li>2) Mixture whose ratio of water to alcohol is 4:5 is added to that in the container.</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                0
+              ],
+              "explanations": "Correct answer: Statement (1) ALONE is sufficient but statement (2) is not sufficient.<br/>Ratio water : alcohol = 2 : 5.<br/>To imply that water = 2/7 × 14 = 4 cups<br/>Alcohol = 14 - 4 = 10 cups.<br/>If water is increased by 14%, we have<br/>new capacity of water =114/100 × 4 = 4.56 cups.<br/>The new volume of the liquid is 10 + 4.56 cups. Hence the statement is sufficient.<br/>In statement 2, ratio of water : alcohol = 4 : 5 but we are not told the quantity of the liquid added or the quantity of water or alcohol added, hence, the statement is not sufficient."
+            },
+            {
+              "id": 9,
+              "question": "<p style=\"font-size:20px\">Determine the area of a triangle A.<ul><li>1) Triangle A and B are similar with a linear scale factor of 7 : 10.</li><li>2) B is larger than A.</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                4
+              ],
+              "explanations": "Correct answer: Statements (1) and (2) TOGETHER are NOT sufficient.<br/>In statement 1, linear scale factor of A : B = 7 : 10 hence the area scale factor = 49:100. However, we are not given the area of B hence we cannot determine the area of A. The statement is insufficient.<br/>In statement 2, B is larger than A the ratio B/A is more than 1. Since no more information is given about the ratio or the area of either A or B, the statement is not sufficient.<br/>Combining the two statements, Area scale factor = 49 : 100 hence, 49 corresponds to the smaller triangle and 100 to the larger triangle according to statement 2. However, we are not given the area of B hence we cannot determine the area of A. The statements together are not insufficient."
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Test 2",
+          "questions": [
+            {
+              "id": 0,
+              "question": "<p style=\"font-size:20px\">The area of a square is equal to the area of the rectangle. Find the perimeter of the rectangle.<ul><li>1) The perimeter of the square is 24 inches.</li><li>2) The sum of the length and the width is 13 inches.</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Correct answer: BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.<br/>Area of triangle = Area of rectangle<br/>In statement 1, perimeter of the square is 24 = 4s, where s represents the side, s = 6. Therefore, area = 62 = 36 square inches.<br/>Let l and w be the length and width of the rectangle respectively, then lw =36.<br/>Thus, we cannot determine w or l hence the statement is insufficient.<br/>In statement 2, the sum of the length (l) and width(w) is 13.<br/>Hence l + w = 13 hence w = 13 - l. This is an equation in two unknowns hence, we cannot determine the value of w or l. Therefore, the statement is not sufficient.<br/>Combining the two statements, we have l = 13 - w and  lw =36, substituting for l, we have (13 - w)w = 36<br/>w2 - 13w + 36 = 0; w2 - 9w - 4w + 36 = 0<br/>(w - 9)(w - 4) = 0,  w =9, w = 4.<br/>Since let w = 9, then l = 4 so that 9 + 4 =13, thus, w must be 4.<br/>w = 4.<br/>Perimeter = 2(4 + 9) = 26 inches. Therefore, Correct answer: BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
+            },
+            {
+              "id": 1,
+              "question": "<p style=\"font-size:20px\">A particle moving in air increases its speed within 30 minutes. Find its acceleration.<ul><li>1) Its initial velocity is 20miles per hour and its final velocity is 25 miles per hour.</li><li>2) The particle increases its speed by 5 miles per hour.</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "Correct answer: EACH statement ALONE is sufficient.<br/>Time taken = change in time = 30 minutes = 1/2 hours<br/>In statement 1, Initial velocity (v1) = 20 miles per hour and change in time = 0.5 hours (given)<br/>Final velocity (v2) = 25 miles per hour.<br/>Acceleration = (v2 - v1)/ change in time = (25 - 20)/ 0.5 = 10 miles per hour per hour. Therefore, the statement is sufficient.<br/>In statement 2, Change in velocity = 5 miles per hour and change in time = 0.5 hours (given).<br/>Acceleration = Change in velocity/change in time = 5/0.5 =10 miles per hour per hour. Therefore, the statement is sufficient.<br/>Therefore, EACH statement ALONE is sufficient."
+            },
+            {
+              "id": 2,
+              "question": "<p style=\"font-size:20px\">Are the two lines L1 and L2 parallel?<ul><li>1) Both lines lie in the first, second and fourth quadrants.</li><li>. The y intercepts of the lines L1 and L2 are 8 and 4 respectively.</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                4
+              ],
+              "explanations": "Correct answer: Statements (1) and (2) TOGETHER are NOT sufficient.<br/>Parallel lines have equal slopes.<br/>In statement 1, if both lines are in the first, second and fourth quadrant then they have a negative slope. This alone is not enough to prove that they are parallel or not, hence, the statement is insufficient.<br/>In statement 2, the y intercepts are 8 and 4 to imply that the equation are of the form y = mx + 8 and y = bx + 4. But this does not enough to determine if the lines area parallel since, notheing is said about the value of m and b, hence, the statement too is insufficient.<br/>Combining the two statements, we have equations having negative gradients, thus, y =-mx + 8 and y = -bx + 4. Since we are not sure of -m = -b, we cannot say that they are parallel on not. Therefore,  Statements (1) and (2) TOGETHER are NOT sufficient."
+            },
+            {
+              "id": 3,
+              "question": "<p style=\"font-size:20px\">s,p and q are interior angles of an Isosceles triangle. Find the value of q.<ul><li>1) s = 72&deg;.</li><li>2) p and q are base angles of the triangle.</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Correct answer: BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.<br/>Since s, p and q are interior angles of Isosceles triangle, s + p + q = 180&deg;.<br/>In statement 1, If s = 72&deg;, then p + q + 72 = 180&deg; and<br/>p + q = 180&deg;.<br/>Since we have two unknowns in one equation and we are not sure which angles are base angles, we cannot determine the value of q, hence the statement is not sufficient.<br/>In statement 2, p and q are base angles of the triangle, hence from s + p + q = 180&deg;, we have s + 2q = 180&deg;, but p = q.<br/>But the statement is not sufficient since it does not have any information about s.<br/>Combining the two, we have s + 2q = 180&deg; and s = 72&deg;, we have<br/>72&deg; + 2q = 180&deg;; 2q = 180 - 72 = 108&deg;. q = 54&deg;.<br/>Therefore,  BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
+            },
+            {
+              "id": 4,
+              "question": "<p style=\"font-size:20px\">Is A an obtuse angle?<ul><li>1) A is more than 90&deg;.</li><li>2) A is a supplement of an angle B, an acute triangle.</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "Correct answer: Statement (2) ALONE is sufficient but statement (1) is not sufficient.<br/>An obtuse angle is an angle more than 90&deg; and less than 180&deg;.<br/>In statement 1, A is more than 90&deg;. This implies that A can be as well take a value more than 180&deg; to be a reflex angle or between 90&deg; and 180&deg; to be an obtuse angle. Therefore, the statement is not sufficient.<br/>In statement 2, if B is an acute angle, let B = 45, then A will be its supplement, that is, A = 180&deg; - 45 = 135&deg; an obtuse angle. This is true for all values of B taken. Hence statement B is sufficient."
+            },
+            {
+              "id": 5,
+              "question": "<p style=\"font-size:20px\">Determine the value of angle k.<ul><li>1) Angle k and m lies on a straight line.</li><li>2) Angle m = 39&deg; .</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Correct answer: BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.<br/>In statement1, k and m lie on a straight line hence k + m =180&deg;. Since m is unknown, the statement is insufficient.<br/>In statement 2, m = 39&deg;; since there is no relationship between m and k, we cannot find the value of k. Thus the statement is not sufficient.<br/>Combining the two statements, we have k + m = 180&deg;, and m = 39&deg;.<br/>Substituting for m, we have k + 39 = 180, k = 141&deg;. Thus, BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
+            },
+            {
+              "id": 6,
+              "question": "<p style=\"font-size:20px\">A straight line L passes through (2,8) and the origin. Find the equation of a line perpendicular to L.<ul><li>1) The line passes through the origin.</li><li>2) The line passes through (2,-0.5).</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed"
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "Correct answer: EACH statement ALONE is sufficient.<br/>The line L passes through (2,8) and (0,0) hence its slope is<br/>slope = (8 - 0)/(2 - 0) = 4.<br/>Since L is perpendicular to the line in question, the product of their slope is -1. Therefore, the slope of the line in question is -1/4.<br/>In statement 1, the line passes the origin, (0,0) and its slope is -1/4 hence its equation is y = -x/4. The statement is sufficient.<br/>In statement 2, line passes through the (2,0.5) and its slope is -1/4. Thus we have (y + 0.5)/(x - 2) = -1/4<br/>y + 1/2 = -x/4 + 1/2<br/>thus  y = -x/4. The statement is sufficient too.<br/>Thus, EACH statement ALONE is sufficient."
+            },
+            {
+              "id": 7,
+              "question": "<p style=\"font-size:20px\">Two pipes supply waters to a cistern whose capacity of 15 cubic feet. How long does it take the two pipes to fill the cistern?<ul><li>1) The first pipe supplies water at a rate (per minute) that is thrice faster than the second pipe.</li><li>2) The pipes fill 8 cubic feet of the tank in ten minute.</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "Correct answer: Statement (2) ALONE is sufficient but statement (1) is not sufficient.<br/>The capacity of cistern is 15 cubic feet.<br/>In statement 1, let the second pipe supply water a rate of x feet per minute. The rate of the first pipe is 3x feet per minute. Thus, the statement is insufficient.<br/>In statement 2, the pipes fill 8 cubic feet in 10 minute. Therefore, 15 cubic feet will be filled in (15 × 10)/8 = 18.75 minutes. Hence, the statement is sufficient."
+            },
+            {
+              "id": 8,
+              "question": "<p style=\"font-size:20px\">Is 2x + 1 > 0.<ul><li>1) x is an integer</li><li>2) |x| < 1.5</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                4
+              ],
+              "explanations": "Correct answer: Statements (1) and (2) TOGETHER are NOT sufficient.<br/>2x + 1 > 0<br/>In statement 1, a is an integer, when x = -2, 2x + 1 = -3 < 0. When x = 2, 2x + 1 = 5 > 0, hence the statement is not sufficient.<br/>In statement 2, |x| < 1.5 implies that -1.5 < x < 1.5.<br/>When x = 1.4, 2x + 1 = 3.8 > 0. When x = -1.4, 2x + 1 = -1.8 < 0.<br/>Hence, the statement is not sufficient.<br/>Combining the two statements, we have, x, an integer and -1.5 < x < 1.5, considering the more strict condition, -1.5 < x < 1.5, we find that 2x + 1 < 0, when x = -1.4 and 2x + 1 > 0 when x = 1.4.<br/>Therefore, Statements (1) and (2) TOGETHER are NOT sufficient."
+            },
+            {
+              "id": 9,
+              "question": "<p style=\"font-size:20px\">Two numbers 12 and t are two positive numbers with some similar properties. What is the value of t.<ul><li>1) The Least Common Multiple of the two numbers 48.</li><li>2) The Greatest Common multiple of the two numbers is 4.</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Correct answer: BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.<br/>We consider 12 and t.<br/>In statement 1, the Least Common multiple of 12 and t is 48 to mean that t is a factor of 48. This mean that, t can take 16, 24 and 48. Hence the statement is not sufficient.<br/>In statement 2, the Greatest Common Multiple is 4. Therefore, t can take 4, 8, 16, 28, 32, 40 among others. Thus, the statement is not sufficient.<br/>Combining statements 1and 2, we have 16 featuring in both lists, hence it satisfies the two conditions. Therefore, t =16. Thus BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Test 3",
+          "questions": [
+            {
+              "id": 0,
+              "question": "<p style=\"font-size:20px\">Find the area of a right angle triangle whose base is 12 inches.<ul><li>1) The hypotenuse is 13 inches.</li><li>2) The perpendicular height of the triangle is one less than half its base.</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "Correct answer: EACH statement ALONE is sufficient.<br/>Base = 12 inches.<br/>In statement 1, hypotenuse = 13 inches. Using Pythagorean theorem, we have height = &radic;(13<sup>2</sup> - 12<sup>2</sup>) = 5.<br/>Area = 1/2 × 5 × 12 = 30 square inches. The statement is sufficient.<br/>In statement 2, perpendicular height = 1/2 (base) - 1 = 1/2 × 12 -1 = 5 inches. Base = 12 inches.<br/>Area =1/2 × 5 × 12 = 30 square inches. The statement is sufficient."
+            },
+            {
+              "id": 1,
+              "question": "<p style=\"font-size:20px\">Is the number a prime number?<ul><li>1) The number is divisible by a prime factor.</li><li>2) The number is positive</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                4
+              ],
+              "explanations": "Correct answer: Statements (1) and (2) TOGETHER are NOT sufficient.<br/>In statement 1, the number is divisible by a prime factor, hence the number can be 2, 4, 6, -2, -4, -6, 8 , 9 . . . . Hence the statement is insufficient.<br/>In statement 2, the number is positive. But there are infinitely many numbers that are positive but not prime, hence, the statement is not sufficient.<br/>Combining the two statements, we have the numbers being positive, thus, 2,4,6,8,9,10,. . . . The numbers are infinitely many, hence Statements (1) and (2) TOGETHER are NOT sufficient."
+            },
+            {
+              "id": 2,
+              "question": "<p style=\"font-size:20px\">Answer the question below:<ul><li>Find the direction in which the parabola  y = ax<sup>2</sup> + bx - 2 is facing.<br/>\t1. a = b</li><li>2) a < 0</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "Correct answer: Statement (2) ALONE is sufficient but statement (1) is not sufficient.<br/>The parabola y = ax2 + bx - 2 faces upwards when a > 0 and downwards when a < 0.<br/>In statement 1, a = b, this does not give the numerical equivalent to a, hence it is not sufficient.<br/>In statement 2, a < 0, hence the parabola faces downwards. Thus the statement is sufficient."
+            },
+            {
+              "id": 3,
+              "question": "<p style=\"font-size:20px\">Find the equation of a line.<ul><li>1) Its x and y intercept is 2 and -2 respectively.</li><li>2) The slope of the line is 1.</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                0
+              ],
+              "explanations": "Correct answer: Statement (1) ALONE is sufficient but statement (2) is not sufficient.<br/>In statement 1, the x and y intercept is 2 and -2 respectively, hence the line passes through (2,0) and (0,-2). The slope is<br/>(-2 - 0)/(2 - 0) = -1.<br/>The equation is y/(x - 2) = -1 hence x = -x + 2.<br/>The statement is sufficient.<br/>In statement 2, the slope is 1. Since we are not given any point where the line is passing, the statement is insufficient. Thus, Statement (1) ALONE is sufficient but statement (2) is not sufficient."
+            },
+            {
+              "id": 4,
+              "question": "<p style=\"font-size:20px\">Determine the size of an interior angle of the polygon.<ul><li>1) The ratio of its interior angle to the exterior angle is 2:1</li><li>2) The polygon is a regular hexagon</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "Correct answer: Statement (2) ALONE is sufficient but statement (1) is not sufficient.<br/>In statement 1, the ratio interior angle to the exterior angle is 2:1. Since two angles lies on a straight line they add up to 180&deg;. Taking x as the constant of proportionality, we have 2/3x = 180, x = 270.<br/>The interior angle is 2/3x = 2/3 × 270 =180&deg;.<br/>In statement 2, the polygon is a regular hexagon, a 6 sided figure. The sum of interior sides is given by (n - 2)180&deg;;  since n = 6, we have (6 - 2) 180 =720.<br/>Interior side = 720/6 =120&deg;. The statement is sufficient. Thus, Statement (2) ALONE is sufficient but statement (1) is not sufficient."
+            },
+            {
+              "id": 5,
+              "question": "<p style=\"font-size:20px\">Find out if t < 0.<ul><li>1) |t| > t</li><li>2) t<sup>2</sup> > 0</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                0
+              ],
+              "explanations": "Correct answer: Statement (1) ALONE is sufficient but statement (2) is not sufficient.<br/>In statement 1, |t| > t. But is |-t| = |t|. Hence t can be positive or negative.  When |t| > t, it implies that t is a negative value, hence t < 0. The statement is sufficient.<br/>In statement 2, t2 > 0 , but when t is negative or positive, t2 > 0 , hence the statement is not sufficient. Thus  Statement (1) ALONE is sufficient but statement (2) is not sufficient."
+            },
+            {
+              "id": 6,
+              "question": "<p style=\"font-size:20px\">Determine the value of t.<ul><li>1) 2t + 6s = 8</li><li>2) t/2 - 2 = - 3s/4</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed"
+              ],
+              "correctAnswers": [
+                4
+              ],
+              "explanations": "Correct answer: Statements (1) and (2) TOGETHER are NOT sufficient.<br/>In statement 1, 2t + 6s = 8 is one equation is two unknowns, hence we cannot determine the value of t. The statement is insufficient.<br/>In statement 2, t/2 - 2 = -3s/4 can be transformed to t - 4 = -6s/2. But this is an equation with two unknowns hence we cannot determine the value of t. The statement is insufficient.<br/>Combining the two statements, we have  2, t/2 - 2 = -3s/4 which can be transformed to t - 4 = -6s/2 then to 2t - 8 = -6s but this is equal to the equation 2t + 6s = 8, hence we have an equation with two unknowns. Thus, we cannot determine the value of t; the statements (1) and (2) TOGETHER are NOT sufficient."
+            },
+            {
+              "id": 7,
+              "question": "<p style=\"font-size:20px\">Find the percentage change in the volume of cylinder.<ul><li>1) The diameter is increased by 20%.</li><li>2) The height is increased by 21%.</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": " Correct answer: EACH statement ALONE is sufficient.<br/>The volume of the cylinder is given buy v = πr<sup>2</sup>h.<br/>In statement 1, diameter (d) is increased by 20%, hence the radius is increased by 10%. The new radius is given by 1.1r. The new volume = π(1.1r)<sup>2</sup>h = 1.21πr<sup>2</sup>h<br/>Percentage change in volume = (1.21πr<sup>2</sup>h  - πr<sup>2</sup>h )/pr<sup>2</sup>h × 100% = 21%. The statement is sufficient.<br/>In statement 2, height is increased by 21%, hence the new height is 1.21h. The new volume = 1.21πr<sup>2</sup>h.<br/>Percentage change in volume = (1.21πr<sup>2</sup>h  - πr<sup>2</sup>h )/πr<sup>2</sup>h × 100% = 21%. The statement is sufficient.  Therefore,  EACH statement ALONE is sufficient."
+            },
+            {
+              "id": 8,
+              "question": "<p style=\"font-size:20px\">a < b. Is a positive?<ul><li>1)  b = 0.</li><li>2)  &radic;a < a</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                0
+              ],
+              "explanations": "Correct answer: Statement (1) ALONE is sufficient but statement (2) is not sufficient. a < b<br/>In statement 1, b =0, when a < b and b = 0, it implies that a < 0, hence, a is negative and a is not positive. The statement is sufficient.<br/>In statement 2, &radic;a < a, the square root of a number is either negative or positive, when &radic;a < a, then &radic;a is negative.<br/>-&radic;a < a. But this is not enough to determine the sign of a. Hence, the statement is not sufficient. Thus,  Statement (1) ALONE is sufficient but statement (2) is not sufficient."
+            },
+            {
+              "id": 9,
+              "question": "<p style=\"font-size:20px\">Determine the equation of the circle passing through (-4,-2).<ul><li>1) (1,-1) lies in the circle.</li><li>2) The center of the circle is the origin.</li></ul></p>",
+              "options": [
+                "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+                "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+                "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question ask",
+                "EACH statement ALONE is sufficient to answer the question asked.",
+                "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed."
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "Correct answer: Statement (2) ALONE is sufficient but statement (1) is not sufficient.<br/>The circle passes through (-4,-2).<br/>In statement 1, (1,-1) lies in the circle; since the statement does not specify if the point is the center, we cannot determine its radius and the center, hence, it is insufficient.<br/>In statement 2, the center is the origin, using (-4,-2) the radius of the circle is &radic;((-4 - 0)<sup>2</sup> + (-2 - 0)<sup>2</sup>) = &radic;(16 + 4) = &radic;20 units.<br/>The equation is (x - 0)<sup>2</sup> + (y - 0)<sup>2</sup> = 20 ; x<sup>2</sup> + y<sup>2</sup> = 20. The statement is sufficient. Thus, Statement (2) ALONE is sufficient but statement (1) is not sufficient."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "GMAT Problem Solving Practice",
+      "tests": [
+        {
+          "id": 0,
+          "name": "Test 1",
+          "questions": [
+            {
+              "id": 0,
+              "question": "<p style=\"font-size:20px\">What is the area of triangle ALC in the figure given below?<br/><img src=\"https://prepquiz.latrach.org/assets/images/GRE%20Math%20Q1.png\"/>",
+              "options": [
+                "2.5",
+                "3",
+                "3.5",
+                "4",
+                "4.5"
+              ],
+              "correctAnswers": [
+                4
+              ],
+              "explanations": "Explanation: First of all, we need to find LC, but for that, we need to find DL. We know that AB= DC = 7.<br/><br/>So, LC = DC- DL<br/><br/>Now, DL = &radic;(5^2- 3^2 )= 4 (using Pythagoras Theorem)<br/><br/>So, LC = 7-4 = 3<br/><br/>Therefore, Area = (1/2)(Base)(Altitude) = (0.5)(3)(3) = 4.5"
+            },
+            {
+              "id": 1,
+              "question": "<p style=\"font-size:20px\">Alan has two more than twice as many chocolates as does Alice, and half as many chocolates as does Nadia. If Alice has 'a' number of chocolates, then in terms of 'a', how many chocolates do Alan, Alice and Nadia have?",
+              "options": [
+                "2a+4",
+                "5a+5",
+                "6a+7",
+                "7a+6",
+                "9a+4"
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "Explanation: We know that Alice has 'a' chocolates. Alan has 2a+2 chocolates from the given statement in the question. Nadia has double the chocolates as Alan has, so she has 4a+4 chocolates.<br/><br/>Adding these, we get 4a+4+2a+2+a = 7a +6 . So ,Option (d) is correct."
+            },
+            {
+              "id": 2,
+              "question": "<p style=\"font-size:20px\">Milk needs to be thinned to a ratio of 3 parts milk to 2 parts water. The milk-man has by mistake added water so that he has 8 liters of milk which is half water and half milk. What must he add to make the proportions of the mixture correct?",
+              "options": [
+                "1 liter milk",
+                "1 liter water",
+                "2 liters milk",
+                "1.5 liter milk",
+                "3 Liter milk"
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Explanation: We note that the final ratio must be 3:2 for milk and water respectively. Now, according to given scenario in the question, we have eight liters of solution with 4 liters milk and 4 liters water, which makes it 2:2. In order to make it 3:2, we add 2 liters milk. This would make a total of 6 liters milk and 4 liters water i.e. 6:4 which can be simplified to 3:2."
+            },
+            {
+              "id": 3,
+              "question": "<p style=\"font-size:20px\">The width of a rectangle is 2/3 times its length. If the length is calculated to be 9, what is the value of perimeter for this rectangle?",
+              "options": [
+                "36",
+                "9",
+                "12",
+                "54",
+                "30"
+              ],
+              "correctAnswers": [
+                4
+              ],
+              "explanations": "Explanation: As the width of the rectangle is 2/3 times its length which is 9, the width comes out to be 6. Therefore, the perimeter becomes, 6+6+9+9 = 30. (Perimeter of a rectangle is calculated by adding the lengths of each side of that rectangle)"
+            },
+            {
+              "id": 4,
+              "question": "<p style=\"font-size:20px\">A line l is parallel to the y-axis and passes through the point (2,3). What is its gradient (m) and x-intercept?",
+              "options": [
+                "m= 0 , x= (3,0)",
+                "m= &infin; , x= (2,0)",
+                "m= 0 , x= (2,0)",
+                "m= &infin; , x= (3,0)",
+                "m= 2 , x= (0,0)"
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "Explanation: As the given line is parallel to the y-axis, and the slope of y-axis is infinite, therefore its slope is also infinite. As the line is defined by x=2, hence its x intercept will also be 2 because all of its points will be of the form (2,y)."
+            },
+            {
+              "id": 5,
+              "question": "<p style=\"font-size:20px\">What is the equation of the new parabola created by shifting y = x<sup>2</sup> , three units in the positive y-axis direction?<br/><br/>A. y = (x+3)<sup>2</sup><br/><br/>B. y = x<sup>2</sup><br/><br/>C. y = x<sup>2</sup> + 3<br/><br/>D. 3y = x<sup>2</sup><br/><br/>E. y = x<sup>3</sup>",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Explanation: As the parabola is shifted above, the change would come in the value of y, so we increase y i.e. the whole function by 3 units. Therefore, y=x<sup>2</sup>+3"
+            },
+            {
+              "id": 6,
+              "question": "<p style=\"font-size:20px\">A sphere with diameter 1 unit is enclosed in a cube of side 1 unit each. Find the unoccupied volume remaining inside the cube.",
+              "options": [
+                "1/4",
+                "2&Pi;",
+                "&Pi;/6 - 1",
+                "1 - &Pi;/4",
+                "1 - &Pi;/6"
+              ],
+              "correctAnswers": [
+                4
+              ],
+              "explanations": "Explanation: We find the volume of the cube by the formula length<sup>3</sup>. We then subtract from it the volume of the sphere to find the empty volume. The volume of cube amounts to 1*1*1=1. The volume of the sphere is (4/3)* &Pi; *(radius)<sup>3</sup>. Putting in the values we get (4/3)* &Pi; *(0.5)<sup>3</sup>. This is equal to &Pi;/6. Subtracting the two gives 1- &Pi; /6."
+            },
+            {
+              "id": 7,
+              "question": "<p style=\"font-size:20px\">The function y=3x<sup>2</sup> is shifted 2 units towards the positive x-axis (right) and 3 units towards the positive y-axis (up). Find the resulting function.<br/><br/>A. y=3x<sup>2</sup>+5<br/><br/>B. y=3x<sup>2</sup><br/><br/>C. y=3(x+2)<sup>2</sup>+3<br/><br/>D. y=3(x-2)<sup>2</sup>-3<br/><br/>E. y=3(x-2)<sup>2</sup>+3",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswers": [
+                4
+              ],
+              "explanations": "Explanation: The upward shift is simply addressed by adding three in the given function, and the horizontal shift is addressed by changing the value of x in the given function. If the shift is a units towards right, then we replace x with x-a. If the shift is towards left then we replace x with x+a."
+            },
+            {
+              "id": 8,
+              "question": "<p style=\"font-size:20px\">Find the shaded area when two squares with side 'a' intersect as shown in the figure below.<br/><img src=\"https://prepquiz.latrach.org/assets/images/GRE%20Math%20Q9.png\"/><br/>A. 1/8 a<sup>2</sup><br/>B. 1/4 a<sup>2</sup><br/>C. a<sup>2</sup><br/>D. 1/3 a<sup>2</sup><br/>E. 2/5 a<sup>2</sup>",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "Explanation: We realize that the shaded figure is actually a square of side 0.5a. The answer follows, area = (0.5a)<sup>2</sup> = 0.25a<sup>2</sup>. (area of a square of side a is a<sup>2</sup>)"
+            },
+            {
+              "id": 9,
+              "question": "<p style=\"font-size:20px\">If the largest side of a triangle is A, and the other two sides are B and C. What relation exists between them?",
+              "options": [
+                "A=B+C",
+                "A+C",
+                "A>|B-C|",
+                "|B-C|",
+                "A=&Pi;(B-C)"
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Explanation: The largest side is greater than the difference of the smaller sides and less than the sum of the two smaller sides. Therefore, option C is the correct answer."
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Test 2",
+          "questions": [
+            {
+              "id": 0,
+              "question": "<p style=\"font-size:20px\">A racecar driver has completed 12 1/2 laps of a 50 lap race. What fractional part of the race remains?",
+              "options": [
+                "1/4",
+                "1/5",
+                "3/4",
+                "4/5",
+                "75/2"
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "The driver has 50 - 12 1/2 or 37 1/2 laps to go out of the . Therefore, (37 1/2)/50 is the fractional part of the race remaining. This is equivalent to 3/4, which is answer C.<br/>a. (1/4) This is the fraction of the race that the driver has completed.<br/>b. (1/5) This comes from mistakenly dividing by , the latter number coming from adding both lap amounts. The race is only .<br/>c. Correct<br/>d. (4/5) This comes from taking the fraction in response B and subtracting it from 1.<br/>e. (75/2) This comes from , but that's how many laps are left - the driver is only in one race, not !"
+            },
+            {
+              "id": 1,
+              "question": "<p style=\"font-size:20px\">If M is the set of positive multiples of 2 less than 150 and N is the set of positive multiples of 9 less than 150, how many members are there in M n N?",
+              "options": [
+                "0",
+                "8",
+                "9",
+                "18",
+                "74"
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "The only elements in both sets are multiples of 2 x 9 or 18. The multiples of 18 less than 150 are 18, 36, 54, 72, 90, 108, 126 and 144. These are the 8 elements that are in the intersection of both sets. Thus, B is the correct response.<br/>a. (0) There are elements that are in both sets.<br/>b. (8) Correct<br/>c. (9) There are 8 elements in both sets, not 9.<br/>d. (18) This is the number that the elements are multiples of.<br/>e. (74) This is the number of multiples of 2 less than 150"
+            },
+            {
+              "id": 2,
+              "question": "<p style=\"font-size:20px\">At Bruno's Video World, the regular price for a DVD is d dollars. How many DVDs can be purchased for x dollars when the DVDs are on sale at 20% off the regular price?",
+              "options": [
+                "4/5x",
+                "5/4x",
+                "4/5d",
+                "4x/5d",
+                "5x/4d"
+              ],
+              "correctAnswers": [
+                4
+              ],
+              "explanations": "Since you have x dollars to spend, you must divide x by the sale price of a CD, which is (100%-20%)d or 80%d . 80%d can be written as a fraction in lowest terms as 4/5d . Therefore, you are dividing x/(4/5d) = 5x/4d. This is answer E.<br/>a. This is the percent of the original price times x.<br/>b. This is the reciprocal of the sale fraction times x.<br/>c. This is the fraction of the original price, which represents the sale price.<br/>d. This comes from incorrectly handling the fraction in the denominator.<br/>e. Correct"
+            },
+            {
+              "id": 3,
+              "question": "<p style=\"font-size:20px\">Please answer the following math question:<br/>If x &ne; 2y, then <br/>(x-2y)/(2y-x) + (2y-x)/(x-2y) =",
+              "options": [
+                "2(x-2y)",
+                "2y-x",
+                "1",
+                "0",
+                "-2"
+              ],
+              "correctAnswers": [
+                4
+              ],
+              "explanations": "Both fractions each = -1, so adding -1 twice gives an answer of -2. This is choice E.<br/>a. Both fractions are not equal to (x-2y) , so we do not have like terms.<br/>b. The other parts of the fractions are not eliminated, so this is not possible.<br/>c. Each fraction equals -1, so this result is not possible.<br/>d. Each fraction equals -1, so adding twice gives .<br/>e. Correct"
+            },
+            {
+              "id": 4,
+              "question": "<p style=\"font-size:20px\">If Dave drove one-third of the distance of his trip on the first day, and 60 miles on the second day, he figured out that he still had 1/2 of the trip to drive. What was the total length, in miles, of his trip?",
+              "options": [
+                "360",
+                "180",
+                "120",
+                "60",
+                "90"
+              ],
+              "correctAnswers": [
+                0
+              ],
+              "explanations": "We can model this situation by the equation 1/3x + 60 = 1/2x . Solving for x, we get x=360 , which is answer A.<br/>a. Correct<br/>b. This is the number of miles he drove before he figured out how much of his trip was left.<br/>c. This amount is how much he drove the first day.<br/>d. This is how much he drove the second day.<br/>e. This amount is half of the distance he covered by the end of the second day."
+            },
+            {
+              "id": 5,
+              "question": "<p style=\"font-size:20px\">Please answer the following math question:<br/>If x<sup>2</sup> - y<sup>2</sup> = 48, the<br/><img src=\"https://prepquiz.latrach.org/assets/images/eq1a.png\"/>",
+              "options": [
+                "16",
+                "72",
+                "96",
+                "32",
+                "64"
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "The difference of two squares (x<sup>2</sup> - y<sup>2</sup>) equals 48, and the factors are (x+y)(x-y), so we can just replace both factors in the second expression by 48 and multiply by 2/3 to get 32 . This is choice D.<br/>a. This involves canceling the 3 into the 48 , but forgetting to multiply by 2 .<br/>b. This comes from multiplying 3/2 by 48.<br/>c. This is 48 x 2 , but it was not divided by 3.<br/>d. Correct<br/>e. This is 4/3 times 48"
+            },
+            {
+              "id": 6,
+              "question": "<p style=\"font-size:20px\">Eddie is 7 years older than Brian. If Brian is x years old, then how old was Eddie 11 years ago?",
+              "options": [
+                "x - 18",
+                "x - 4",
+                "x - 7",
+                "7x - 11",
+                "x + 18"
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "We can model this by getting Eddie's age now and then figuring out how old he was 11 years ago. Right now, he is x+7 . Eleven years ago, Eddie was x + 7 -11 = x - 4 years old. This is answer B.<br/>a. The correct calculation should be x + 7 (to get Eddie's age now) - 11 , which is x - 4 .<br/>b. Correct<br/>c. This is an incorrect calculation of Eddie's present age.<br/>d. This response does not relate their ages properly.<br/>e. This also does not express their age relationship properly."
+            },
+            {
+              "id": 7,
+              "question": "<p style=\"font-size:20px\">Find the perimeter of isosceles triangle ABC (below) if mAD = 3 and m < BAC = 55 degrees. Round to the nearest hundredth.<br/><img src=\"https://prepquiz.latrach.org/assets/images/tr1.png\">",
+              "options": [
+                "5.21",
+                "10.42",
+                "13.48",
+                "16.46",
+                "13.39"
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "Correct answer: D — The first step is to find one of the other sides of the triangle. The easiest is AB. Since we have the side adjacent (next to) the angle we know, we can use cosine. Cosine of an angle = (adjacent)  / (hypotenuse) The setup is cos (55) = 3/(AB). Multiplying AB to the left gives (AB) cos 55 = 3.  Dividing by cos (55) gives  AB = 3/cos(55). Using a calculator gives us  AB = 5.23 Since AB = BC, we know that AB + BC = 10.46 . Also, since AD = DC, we know that AD + DC = 6 Therefore, the sum of all three sides is 16.46."
+            },
+            {
+              "id": 8,
+              "question": "<p style=\"font-size:20px\">What is f(2) for the graph of f(x) below?<br/><img src=\"https://prepquiz.latrach.org/assets/images/gr1.png\"/>",
+              "options": [
+                "1",
+                "1/2",
+                "0",
+                "2",
+                "-1"
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "Asking for the value of f(2) is just a way of saying \"what does y equal when x=2 ?\" So you look for when x=2 . On the graph, we have the point (2,1/2) . Note that exact numbers are not provided in the graph, but standard practice indicates that each tick mark is one unit. So we moved 2 tick marks to the right, and then the line crosses through a point on the y axis between 0 and 1. Therefore, f(2)  is equal to 1/2 . Choice B is the only possible choice."
+            },
+            {
+              "id": 9,
+              "question": "<p style=\"font-size:20px\">According to the graph below, the greatest change in the profit of the Sports Shack occurred between which two consecutive months?<br/><img src=\"https://prepquiz.latrach.org/assets/images/ch1.png\"/>",
+              "options": [
+                "January and February",
+                "February and March",
+                "March and April",
+                "April and May",
+                "May and June"
+              ],
+              "correctAnswers": [
+                0
+              ],
+              "explanations": "The answer is: A January and February. The profit in January was $20,000. The profit in February was-$20,000 . This represents a change in profit of -$40,000, which is the greatest that the graph shows."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Test 3",
+          "questions": [
+            {
+              "id": 0,
+              "question": "<p style=\"font-size:20px\">A square PQRS is enclosed in another square ABCD. Find the ratio of the area of PQRS to the area of ABCD.<br/><img src=\"https://prepquiz.latrach.org/assets/images/GRE%20Math%20Q11.png\"/>",
+              "options": [
+                "1/2",
+                "1/4",
+                "1/3",
+                "2/3",
+                "1/&radic;2"
+              ],
+              "correctAnswers": [
+                0
+              ],
+              "explanations": "Explanation: If we divide the figure in 4 equal parts we see that the shaded area is half the total area.<br/><br/>An alternate approach is to find the unshaded area by observing that it is composed of right angled triangles, adding this area and subtracting from total can get the shaded area."
+            },
+            {
+              "id": 1,
+              "question": "<p style=\"font-size:20px\">What is the ratio of the area of triangle ABC to the area of square ADFC if CB=(CF)/4<br/><img src=\"https://prepquiz.latrach.org/assets/images/GRE%20Math%20Q12.png\"/>",
+              "options": [
+                "1/4",
+                "1/8",
+                "1/16",
+                "2/5",
+                "3/8"
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "Explanation: We find the area using the one fourth length, 0.5*base*height, then divide it by the area of the square (square of side). For length we use an arbitrary variable, but the choice doesn't matter as the ratio is independent of it.<br/><br/>Let's suppose that the length of one side is 'x'. Then area of square becomes x<sup>2</sup>. The area of triangle becomes (1/2)(x)(x/4) = (x<sup>2</sup>)/8. So, the ratio becomes ((x<sup>2</sup>)/8)/(x<sup>2</sup>) which simplifies to 1/8"
+            },
+            {
+              "id": 2,
+              "question": "<p style=\"font-size:20px\">If the product of two integers x and y is less than 82 with y being a multiple of three. What is the highest value that x may have?",
+              "options": [
+                "13",
+                "42",
+                "27",
+                "30",
+                "34"
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Explanation: In order to find the maximum value of x, we need to put the minimum value of y i.e. 3. Now, if we divide 82 by 3, we get 27.33, which means the maximum integer value that x can have must be less than 27.33. From the given options, we choose option C which is 27."
+            },
+            {
+              "id": 3,
+              "question": "<p style=\"font-size:20px\">Adam is 2 years older than Mike. The square of Adam's age is 28 greater than the square of Mike's age in years. What is the sum of Adam's age and Mike's age?",
+              "options": [
+                "8",
+                "12",
+                "14",
+                "18",
+                "22"
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Explanation: Let suppose that Adam's age is 'A', and Mike's age is 'M'. From the statement of the questions, we deduce following two equations.<br/><br/>A = 2+M and also A<sup>2</sup>= M<sup>2</sup>+28 -> A<sup>2</sup> - M<sup>2</sup> = 28 -> (A+M)(A-M)=28 and then putting<br/><br/>A-M=2, we get (A+M) = 14. Therefore, the sum of Adam's age and Mike's age is 14."
+            },
+            {
+              "id": 4,
+              "question": "<p style=\"font-size:20px\">Adam has bought a certain number of apples. Jen has bought 5 times the fruit that Adam has bought. If Jen has bought two and a half dozen apples how many apples does Adam have?",
+              "options": [
+                "6 apples",
+                "8 apples",
+                "12 apples",
+                "24 apples",
+                "30 apples"
+              ],
+              "correctAnswers": [
+                0
+              ],
+              "explanations": "Explanation: It's a relatively simple question. Jen has five times the number of apples which Adam has. If Jen has 30 apples, Adam has 30/5=6 apples."
+            },
+            {
+              "id": 5,
+              "question": "<p style=\"font-size:20px\">What would be the circumference of a circle that has been inscribed in a square of area 5.",
+              "options": [
+                "3&Pi;",
+                "2&Pi;",
+                "&radic;5&Pi;",
+                "&Pi; + 3/2",
+                "&radic;5 / 2&Pi;"
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Explanation: Area of a square is multiple of any two sides. If the area is 5, each side of the square has to be &radic;5 i.e. &radic;5*&radic;5=5<br/><br/>Now, the radius of the circle would be half of &radic;5 because the circle in inscribed inside the square. So Radius = &radic;5/2<br/><br/>So, Circumference= 2*(&Pi;)*&radic;5/2<br/><br/>Circumference= &Pi;&radic;5"
+            },
+            {
+              "id": 6,
+              "question": "<p style=\"font-size:20px\">What could be the possible value of 'y' after the intersection of points<br/><br/>y= -x<sup>2</sup> + 3 and y= x<sup>2</sup> - 5",
+              "options": [
+                "&radic;2",
+                "3/2",
+                "4",
+                "&radic;8",
+                "-1"
+              ],
+              "correctAnswers": [
+                4
+              ],
+              "explanations": "Explanation: We equate the two equations, find the two points of intersection of the two functions and compute the distance using the distance between points formula.<br/><br/>After equating these two equations, we get x= + 2 and x=-2 which gives us y=7, and y=-1. Therefore, we select option E is as our correct answer."
+            },
+            {
+              "id": 7,
+              "question": "<p style=\"font-size:20px\">A house is built by 20 workers in 30 days. How many workers will be needed to complete the work in 15 days?",
+              "options": [
+                "20",
+                "34",
+                "40",
+                "45",
+                "52"
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Explanation: As stated in the question, the work needs to be completed in half the days as compared to the earlier timeline for completion, therefore, the number the workers needs to be doubled."
+            },
+            {
+              "id": 8,
+              "question": "<p style=\"font-size:20px\">Master Chef Alan makes a dish every day from one of his recipe books. He has written 3 books and each book contains 15 different recipes. What is the probability that he will cook 4th dish from 3rd book today?",
+              "options": [
+                "1/15",
+                "3/45",
+                "3/13",
+                "1/45",
+                "1/3"
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "Explanation: We note that there are three books and each book contains 15 recipes so there are a total of 45 recipes. The probability that he will cook 4th dish from 3rd book today is 1/45. It's important that you must not get distracted by irrelevant information. All the recipes are different from each other."
+            },
+            {
+              "id": 9,
+              "question": "<p style=\"font-size:20px\">In a Christmas sale, the prices of Dell Laptops were reduced by 10% for public. However, for Dell employees, the price was further reduced by 5%. If the original price of a laptop was $330 before Christmas sale, approximately how much would it cost in a Christmas sale to a Dell employee?",
+              "options": [
+                "$271",
+                "$277",
+                "$282",
+                "$287",
+                "$295"
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Explanation: Original Price = $330<br/><br/>Price after 10% discount= 330 * 0.9 = $297<br/><br/>Price after further 5% discount (for Dell employees) = 297* 0.95 = $282. Therefore, Option C."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "GMAT Critical Reasoning Practice",
+      "tests": [
+        {
+          "id": 0,
+          "name": "Test 1",
+          "questions": [
+            {
+              "id": 0,
+              "question": "<p style=\"font-size:20px\">Lauren is clearly going to make an awful professor. Nearly half of her students failed their final this past spring. She should probably choose another career path, because her students' performance demonstrates that she doesn't teach very well.<br/><br/>What statement, if true, most weakens the argument above?",
+              "options": [
+                "A- This was Lauren's second time teaching a college class.",
+                "B- The class Lauren was teaching is a required class for all freshmen.",
+                "C- The students who failed the exam also had poor attendance.",
+                "D- The students who passed the exam attended an optional review session Lauren's teaching assistant held.",
+                "E- Lauren struggled early in the semester with lesson planning."
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Explanation: C is correct because this shows that the students' poor attendance, and not Lauren's teaching style, was likely to blame for their poor performance on the exam. If they were not in class when Lauren was teaching, her style could have very little positive or negative impact on their learning.<br/><br/>A is incorrect because we do not know if Lauren's students did better, worse, or the same in the previous class than in this one.<br/><br/>B is incorrect because the class being required would have no direct impact on how students would do on a single exam.<br/><br/>D is incorrect because it speaks to the motivation of the students, and perhaps the teaching effectiveness of the TA, not Lauren herself.<br/><br/>E is incorrect because it supports that idea that Lauren has had issues with teaching effectiveness."
+            },
+            {
+              "id": 1,
+              "question": "<p style=\"font-size:20px\">Three years ago, Ron gave up eating anything with wheat in it. In that time, he lowered his cholesterol by 100 points and lost nearly 85 pounds. He says he feels better than he has in years. As a result, he is writing a book which says that everyone should stop eating wheat products. He says people are not made to eat wheat and that giving it up is the key to losing weight and being healthier.<br/><br/>Which of the following, if true, most weakens the argument above?",
+              "options": [
+                "A- Wheat is found in nearly all processed foods.",
+                "B- Ron has a family history of celiac disease, which is an extreme sensitivity to wheat gluten.",
+                "C- Some studies have shown that a lower carbohydrate diet can help people lose weight and feel better.",
+                "D- Ron runs three miles every morning.",
+                "E- Ron used to be a vegetarian but has resumed eating meat."
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "Explanation: B is correct because Ron's family history means he may be intolerant of wheat. Thus quitting wheat would improve his health, but this might not hold true for people without this sensitivity.<br/><br/>A is incorrect because the presence or absence of wheat in any given food does not effect the validity of Ron's argument.<br/><br/>C is incorrect because low carbohydrate diets do not necessarily entail giving up wheat; even those that do would actually bolster Ron's argument.<br/><br/>D is incorrect because Ron's running likely helped his health improve, but does not negate the impact giving up wheat had on his health. His argument is concerned with wheat, not exercise.<br/><br/>E is incorrect because Ron is not making an assertion about the benefits or drawbacks of either a vegetarian or meat-based diet."
+            },
+            {
+              "id": 2,
+              "question": "<p style=\"font-size:20px\">Gina doesn't understand why she cannot get a job as a computer engineer. She even went back to school and got a degree in computer science. After two years on the job market with only a few interviews and no offers, she is staring to wonder if she is not getting hired because she is a woman. One of her friends told her that women seldom succeed in technology fields, and she is beginning to believe it.<br/><br/>Which of the following, if true, most weakens the argument above?",
+              "options": [
+                "A- Gina got her degree online.",
+                "B- All the people Gina has interviewed with have been men.",
+                "C- Gina had both female and male professors in college.",
+                "D- Gina graduated with a C average.",
+                "E- Gina interviews very well."
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "Explanation: D is correct because it indicates that Gina's grades and knowledge of the field, not her sex, are likely behind her failure to get hired.<br/><br/>A is incorrect because whether her degree was earned online or not likely matters little; hiring managers probably don't even know whether her degree was earned online.<br/><br/>B is incorrect because, while it indicates that there are many men in the field, Gina has had only a few interviews. These experiences do not mean that women are not hired.<br/><br/>C is incorrect because it indicates that both men and women teach in the field, thus that women get hired.<br/><br/>D is incorrect because while she might interview well, this does not guarantee an offer when weighed against other factors on her resume."
+            },
+            {
+              "id": 3,
+              "question": "<p style=\"font-size:20px\">It seems like every day you turn on the local news and you hear about someone being murdered in our city. It is really frightening. I am not sure I want to live somewhere so violent, and crime is clearly going up here. Otherwise the news shows wouldn't have so many murders to report.<br/><br/>Which of the following, if true, most weakens the argument above?",
+              "options": [
+                "A- Federal statistics show that crime in the city has dropped by 2% over the last year.",
+                "B- Local groups have encouraged the media to do more reporting on crimes committed against minorities in the city.",
+                "C- Studies have shown that as crime rates decrease in a city, media coverage of violent crime often increases, giving a false impression of more crime.",
+                "D- The speaker watches three different newscasts every day.",
+                "E- Federal statistics show that the crime rate in the city has remained steady."
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Explanation: C is correct because the speaker is basing his/her conclusion on the amount of news coverage of murders, Since the station may be increasing coverage even if crimes rates are falling, the impression that more news equates with more crime in not necessarily true.<br/><br/>A is incorrect because it does not speak to the speaker's perception that more news equates to more crime.<br/><br/>B is incorrect because it is unknown whether the media has responded to the groups' urging to cover these crimes, nor is it known if these crimes are on the increase or decrease.<br/><br/>D is incorrect because, while watching multiple news shows a day might give one a perception of more coverage, it does not speak to whether the actual crime rate is rising.<br/><br/>E is incorrect because it does not speak to the speaker's perception of more crime."
+            },
+            {
+              "id": 4,
+              "question": "<p style=\"font-size:20px\">Sarah: \"I don't understand why you recycle so much. The recycling program costs the city several million dollars a year. Trash disposal at the landfill costs half as much per household than the municipal recycling program. It just doesn't seem cost effective to have a recycling program.\"<br/><br/>Lauren: \"The point of recycling isn't to save money. By recycling, we keep thousands of tons of materials out of our landfills, which mean we can use the same landfills longer. It's about conserving our resources, not about saving money on trash pickup.\"<br/><br/>Lauren's response to Sarah serves to",
+              "options": [
+                "A- Support Sarah's contention that recycling is too expensive.",
+                "B- Refute Sarah's argument that recycling is more expensive than taking trash to the landfill.",
+                "C- Suggest to Sarah that there is an alternate view of why recycling makes good sense for the people of their city.",
+                "D- Points to a fundamental value difference between the two when it comes to conservation.",
+                "E- Points out her ignorance of municipal finances."
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Explanation: C is correct because Lauren agrees that the recycling program is expensive, but she is seeking to point out that the cost of the program is only one concern when looking for ways to deal with waste in their city.<br/><br/>A is incorrect because, while Lauren agrees that the program is expensive, she points out other ways in which it is valuable.<br/><br/>B is incorrect because Lauren agrees with Sarah that the program is expensive, though she is trying to refute Sarah's claim that it is therefore not a good program.<br/><br/>D is incorrect because we cannot tell from Sarah's statement what her values around conservation are. Laurens' seem clear from her reply, but it is possible both have similar values around this issue.<br/><br/>E is incorrect because Lauren seems quite well informed about municipal finances – she does not dispute Sarah's statements about the costs of recycling and waste disposal."
+            },
+            {
+              "id": 5,
+              "question": "<p style=\"font-size:20px\">Recently, All Trees Lumber Company has been accused of racial discrimination in hiring and promotion practices. The plaintiffs point to the fact that, of top executives, only 3 of 30 are people of color. At the same time, the majority of the people doing entry-level labor in the lumber mills are people of color. They assert that people of color are only hired to do lower-paid, high risk work at All Trees.<br/><br/>How could the lawyers for All Trees best refute the claims of racial discrimination?",
+              "options": [
+                "A- By showing that all executives at the same level make the same salary, regardless of race.",
+                "B- By showing that people awarded promotions had the same or better qualifications than those rejected.",
+                "C- By demonstrating that it is necessary to have a college degree to earn a promotion.",
+                "D- By giving the statistics of the number of white employees doing entry-level jobs.",
+                "E- By actively recruiting white applicants for entry-level jobs."
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "Explanation:  B is correct because it demonstrates that the company uses a uniform standard to award promotions, and only those employees who meet or exceed those qualifications have been awarded promotions, regardless of race.<br/><br/>A is incorrect because it illustrates nondiscrimination at the executive level but does not address claims that people of color are stuck in entry-level jobs.<br/><br/>C is incorrect because we do not know whether or not the people in the entry-level jobs have college degrees or not, and thus cannot tell if they are being held to a standard or discriminated against. (Showing that people of color with college degrees are not promoted would bolster the plantiffs' claims.)<br/><br/>D is incorrect because we already know that the majority of entry-level employees are people of color. Statistics on white employees will not refute this, nor do they tell us anything about hiring practices.<br/><br/>E is incorrect because it would be form of reverse discrimination to recruit based on race."
+            },
+            {
+              "id": 6,
+              "question": "<p style=\"font-size:20px\">Jensen Strawberry Farms in Central Texas went organic two years ago. The first year, they had a bumper crop of strawberries and could barely keep up with the demand from local restaurants and markets. This year, however, their yield fell by more than 50%. The Jensens are now considering going back to conventional farming, since organic farming does not appear to be sustainable.<br/><br/>Which of the following, if true, weakens the argument above?",
+              "options": [
+                "A- It takes up to three years for traces of some pesticides used on strawberries to leave the soil.",
+                "B- Other organic strawberry farms in California and Oregon produced larger-than-normal crops this year.",
+                "C- Organic lettuce farms near to Jensen Strawberry Farms also saw a lower-than-normal yield this year.",
+                "D- Central Texas experienced temperatures above 100 degrees and had no rain for 75 straight days this year.",
+                "E- Jensen Strawberry Farms got its crop in a week earlier this year than last year."
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "Explanation: D is correct because the heat and drought, rather than the organic methods, are likely the cause of lower yields. Thus, the claim that organic farming is not sustainable cannot be supported.<br/><br/>A is incorrect because we do not know if Jensen Farms used any of those pesticides, nor if traces of those pesticides would have impacted this year's yield.<br/><br/>B is incorrect because we do not know how the weather in these states compares to that in Texas, or how these farms otherwise compare to Jensen.<br/><br/>C is incorrect because the lower yields at neighboring lettuce farms would seem to point to organic methods as the reason for lower yields, but we do not have enough information about these other farms to make that connection.<br/><br/>E is incorrect because we do not know if getting the crop in earlier caused it to grow more slowly, more quickly, or be otherwise impacted."
+            },
+            {
+              "id": 7,
+              "question": "<p style=\"font-size:20px\">Lefty is certain that he only pitches well if he eats fried chicken for lunch the day of a game. The last three times he's eaten fried chicken for lunch, he has pitched a shut-out. He is sure that if he eats something else on his team's next road trip, he will not have a good outing.<br/><br/>Which of the following would be a good way to test Lefty's theory about fried chicken?",
+              "options": [
+                "A- Lefty should eat something different before his next game and see how he pitches.",
+                "B- Lefty's manager should have him keep a food diary for the next month to see how what he eats correlates with how he pitches that day.",
+                "C- Lefty's manager should point out that Lefty has pitched as many shut-outs on days when he didn't eat fried chicken as he did on fried chicken days.",
+                "D- Lefty should continue to eat fried chicken on game days.",
+                "E- Lefty should ask his doctor if eating too much fried food is dangerous."
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Explanation: C is correct because it can show that there is just as strong a correlation between Lefty's not eating fried chicken and pitching a shut-out as there is between his eating fried chicken and pitching a shut-out.<br/><br/>A is incorrect because if Lefty does poorly, he will blame it on the fact that he did not eat fried chicken that day.<br/><br/>B is incorrect because Lefty may just continue to eat fried chicken on game days, and thus it will continue to appear that the chicken and his performance are related if he continues to pitch well.<br/><br/>D is incorrect because if he continues to eat fried chicken on game days and continues to pitch well, Lefty will still see the two as related.<br/><br/>E is incorrect because it does not say anything about the effect of eating fried chicken on pitching."
+            },
+            {
+              "id": 8,
+              "question": "<p style=\"font-size:20px\">According to latest research by some professors at Michigan State University, Ozone layer depletion is one of the major causes of Global Warming. Also, because of ozone depletion, there are some noxious rays which enter the earth's environment and cause permanent eye infection in some animals.<br/><br/>Which of the following options support the above stated argument?",
+              "options": [
+                "A- All wavelengths are not harmful for eyes",
+                "B- Human eyes are not infected by harmful wavelengths",
+                "C- Very few species of animals are exposed to these harmful wavelengths of light",
+                "D- Some harmful radiations can easily enter earth's environment due to ozone depletion",
+                "E- Due to global warming, the temperature of the earth is increasing which in turn cause eye infection in some species of animals"
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "Explanation: As stated in the question, \"because of ozone depletion, there are some noxious rays which enter the earth's environment and cause permanent eye infection in some animals\".<br/><br/>Option E might seems as the correct option, but if you read carefully, it declares global warming as the cause of eye infections, which in fact is incorrect. It's the ozone depletion which allows the noxious rays to enter the earth's environment."
+            },
+            {
+              "id": 9,
+              "question": "<p style=\"font-size:20px\">Recent research has shown that giving pregnant women Pitocin to induce labor results in longer labors, more fetal distress, and more emergency Caesarean sections. Pitocin speeds up labor contractions, resulting in more pain for the woman and thus more need for epidurals and pain medications. These medications can cause the fetus's heart rate to drop, which in turn makes a Caesarean necessary. Many times, women are given Pitocin so that they deliver on the doctor's schedule, rather than because their babies are ready to be born. Fetuses that were not in distress before the administering of Pitocin sometimes quickly become distressed after the drug is given, which leads to more medical interventions.<br/><br/>Which of the following states the point of this passage?",
+              "options": [
+                "A- Medical interventions during labor cause the very problems they were meant to prevent.",
+                "B- All medical intervention in pregnancy is unnecessary.",
+                "C- Administering Pitocin to speed labor may result in a series of other medical interventions that are distressing to both mother and baby.",
+                "D- Doctors care more about efficiency than patient care.",
+                "E- Caesarean deliveries are always unnecessary."
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Explanation: C is correct because the passage states that Pitocin causes changes in labor that may distress the fetus, leading to the need for more pain management and possibly Caesarean delivery.<br/><br/>A is incorrect because the passage does not state that all medical intervention during labor causes problems, simply that it may create a need for further intervention.<br/><br/>B is incorrect because the passage does not state that all medical intervention in pregnancy is harmful, only that Pitocin may cause the need for further intervention in some patients.<br/><br/>D is incorrect because, while the passage states that some labors are induced to fit the doctors' schedules, this is far from universally true of all doctors in all situations.<br/><br/>E is incorrect because the passage states that sometimes Caesarean delivery is necessary."
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Test 2",
+          "questions": [
+            {
+              "id": 0,
+              "question": "<p style=\"font-size:20px\">Ciara distrusts modern medicine. She says that the drugs prescribed by doctors are just synthetic poisons that they dispense to make money. She uses only herbs and essential oils to treat her health problems, declaring that they are much safer than prescription drugs because they come directly from nature.<br/><br/>Which of the following, if true, most weakens Ciara's argument?",
+              "options": [
+                "A- Some doctors dispense drugs for free to needy patients.",
+                "B- Some common drugs are derived from plants and other natural substances.",
+                "C- Some herbs and natural substances are quite harmful if ingested.",
+                "D- Sometimes the herbal remedies Ciara takes do not relieve her symptoms.",
+                "E- Herbal supplements and oils are often quite expensive."
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Explanation: C is correct because Ciara claims that herbs and natural remedies are safe, while some plants and natural substances are in fact poisonous.<br/><br/>A is not correct because Ciara's argument is about the safety of natural remedies, rather than the cost.<br/><br/>B is not correct because the drugs may be derived from natural substances but do not come \"directly from nature\" as Ciara argues about natural remedies.<br/><br/>D is not correct because Ciara's argument is about the safety of the remedies, rather than that they are 100% effective.<br/><br/>E is not correct because Ciara's argument is about the safety of the remedies, not the cost."
+            },
+            {
+              "id": 1,
+              "question": "<p style=\"font-size:20px\">Recent DNA analysis shows that the majority of modern humans alive today have at least some genetic material in common with Neanderthal humans. Archaeologists believe that the first evidence of religious behavior has been found in excavations of Neanderthal dwellings in France. The presence of Neanderthal DNA in modern Europeans has led some scholars to assert that Europeans are genetically programmed for religious behavior in ways that people from other areas of the world are not.<br/><br/>Which of the following, if true, more seriously weakens this argument?",
+              "options": [
+                "A- The areas of the Neanderthal excavations have climates in which artifacts are exceptionally well preserved, unlike other area of early human activity,",
+                "B- There is disagreement among archaeologists as to whether the artifacts found in Neanderthal excavations actually indicate religious behavior.",
+                "C- Evidence of religious behavior has been found in every known human culture.",
+                "D- A significant portion of modern Europeans do not practice any religion.",
+                "E- It is impossible to tell by looking at someone whether he or she has Neanderthal DNA."
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Explanation: C is correct because, if Europeans are genetically programmed for religious behavior, then we should not find evidence of religious behavior among all human groups.<br/><br/>A is incorrect because, while this may mean that artifacts are better preserved and there is thus more evidence for Neanderthal religion, we cannot tell from this if there is (or would be) evidence of religion in other cultures.<br/><br/>B is incorrect because the debate over the meaning of the artifacts may mean that there is disagreement over whether Neanderthals had religion, it does not challenge the notion that there is a genetic link to religious behavior.<br/><br/>D is incorrect because modern Europeans not practicing religion does not tell us anything about a genetic motivation for religion.<br/><br/>E is incorrect because the argument does not rely on figuring out who does and does not have Neanderthal DNA."
+            },
+            {
+              "id": 2,
+              "question": "<p style=\"font-size:20px\">It has long been supposed that Neanderthal humans were replaced by modern humans. Most anthropologists thought that the two groups did not have contact or interbreed. However, a recent archaeological dig found Neanderthal artifacts and modern human artifacts mixed together, indicating that there was some contact between the two. The archaeologists leading this dig have published a new article asserting that, in fact, Neanderthals and modern humans did live side by side and interbreed.<br/><br/>Which of the following evidence would provide the strongest support for the archaeologists' claim?",
+              "options": [
+                "A- Carbon dating of the artifacts that reveals they are the same age.",
+                "B- Burials in which there are Neanderthal and modern human bones.",
+                "C- DNA analysis of bones that indicates the presence of Neanderthal and modern human DNA in the same individual.",
+                "D- Cave paintings that depict Neanderthals and modern humans.",
+                "E- Modern human villages built directly on top of Neanderthal villages."
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Explanation: C is correct because a key part of the archaeologists' claim is that the two groups interbred. The only way to show this definitively would be to find the remains of an individual with DNA from both groups.<br/><br/>A is incorrect because such dating will only show that the groups may have been contemporary. It does not speak to them living side by side (artifacts could be found or traded for over distances) or that they interbred.<br/><br/>B is incorrect because such burials may show that the two groups lived together, but not that they interbred.<br/><br/>D is incorrect because such paintings might show that the two groups lived together, but not that they interbred.<br/><br/>E is incorrect because such villages may have been built on abandoned sites – they do not prove contact between the groups."
+            },
+            {
+              "id": 3,
+              "question": "<p style=\"font-size:20px\">A recent sociological study found that more than 40% of the members of a large conservative Christian church were the adult children of divorce. This led the researchers to conclude that growing up in a family where there is divorce leads people to become more religious.<br/><br/>Which of the following would be the best way to test the researchers' conclusions?",
+              "options": [
+                "A- Interview a large random sample of adult children of divorce to see if they are also very religious.",
+                "B- Interview the congregants of the large conservative church to find out if they grew up in the church of converted as adults.",
+                "C- Interview a local atheist group to see how many adult children of divorce are among its members.",
+                "D- Gather statistics on how many marriages end in divorce each year.",
+                "E- Facilitate a therapy group for adult children of divorce."
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "Explanation: B is correct because the researchers assert that growing up in a family of divorce leads to greater religiosity. It is therefore important to know if people began practicing a religion after the divorce, or if they have continued the same religious practice they had as children before the divorce.<br/><br/>A is incorrect because while it tells us about current behavior, it does not tell us about whether or not the divorce of one's parents leads a person to become religious.<br/><br/>C is incorrect because it only tells us that some adult children of divorce become atheists. The group is unlikely to be as large as the church, and therefore it is difficult to compare the samples.<br/><br/>D is incorrect because it only tells us how common divorce is and perhaps how many children experience the divorce of their parents each year. It tells us nothing about religious behavior.<br/><br/>E is incorrect because facilitating such a group might lead to discussions of religious behavior, but it is not systematic or focused. The sample is also likely to be quite small and nonrandom since people choose to go into such groups."
+            },
+            {
+              "id": 4,
+              "question": "<p style=\"font-size:20px\">Breast cancer researchers found that, out of a sample of 1000 women who had been treated for breast cancer, over 60% had had a miscarriage in their lifetime. This led the researchers to conclude that there is a connection between breast cancer and miscarriages, and to encourage all women who have had miscarriages to be screened for breast cancer more frequently than women who have not had miscarriages.<br/><br/>Which of the following, if true, most weakens the researchers' conclusions?",
+              "options": [
+                "A- Women who have had miscarriages are also often taking birth control pills, which have a known connection to breast cancer.",
+                "B- Women who have not had breast cancer also have a high rate of miscarriage after age 35.",
+                "C- Women who have had previous miscarriages sometimes use fertility treatments that are thought to have connections with uterine cancer.",
+                "D- In the general population, roughly 6 out of 10 women will have a miscarriage at some point in their lifetime.",
+                "E- Most of the women in the study had also had at least one living child."
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "Explanation: D is correct because it indicates that the rate of miscarriage in the study sample is no larger than that for the general population. This indicates that women who have not had breast cancer are just as likely to have had miscarriages as women who have been treated for the disease, demonstrating that there is no causal link between miscarriage and breast cancer.<br/><br/>A is incorrect because the birth control pills are a confounding factor; it is just as likely they, not the miscarriages, contributed to breast cancer in the study sample.<br/><br/>B is incorrect because it implies that breast cancer may cause a higher risk of miscarriage, while the researchers are asserting that miscarriage may cause breast cancer.<br/><br/>C is incorrect because the treatments in question are known to have a connection with uterine cancer, but this cannot necessarily be extrapolated to breast cancer.<br/><br/>E is incorrect because the researchers are not asserting that infertility or not having children causes cancer, only that miscarriage does."
+            },
+            {
+              "id": 5,
+              "question": "<p style=\"font-size:20px\">Central State College has a very progressive program for preventing sexual assault on its campus. Every incoming student has to take a 1 hour course on sexual and dating violence, and there are monthly programs about prevention and intervention. The college recently opened a 24-hour hotline for victims and survivors of sexual assault. To their dismay, in the first year of the hotline operating, reports of sexual assaults on campus went up by 10%. Administrators are confused as to why their efforts to prevent violence seem to have led to more violence on campus.<br/><br/>Which of the following might explain the rise in reports of sexual assault at Central State?",
+              "options": [
+                "A- Telling students about sexual violence makes them see it as an option, so more male students are committing assaults.",
+                "B- Having a hotline leads more students to report assaults that in the past may have gone unreported. The actual rate of assaults is likely unchanged.",
+                "C- As a result of education, students are more likely to classify troubling interactions as sexual assault than they might otherwise have been.",
+                "D- The facilitators of the prevention program are not effectively conveying the information to students.",
+                "E- The programs are too infrequent to be effective."
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "Explanation:  B is correct because it accounts for a higher level of reporting, which is what the administrators observed. While it is tempting to conclude that actual assaults went up, it is also known that most sexual assaults go unreported. Having an avenue to report assaults on campus may have led students who would otherwise not have reported to speak up.<br/><br/>A is incorrect because it relies on the false logic that prevention education presents the undesirable behavior as an option. Also, an increase in reporting of assaults does not necessarily mean that more assaults are being committed.<br/><br/>C is incorrect because while it might lead more students to recognize troubling interactions as assault, it does not account for the fact that more students reported those interactions.<br/><br/>D is incorrect because the higher reporting of assaults could just as easily mean that facilitators are quite effective in teaching students about what assault is and how to report it.<br/><br/>E is incorrect because the higher reporting rate through the hotline could just as easily indicate that the programs are very effective in raising awareness of assault."
+            },
+            {
+              "id": 6,
+              "question": "<p style=\"font-size:20px\">According to Dr. Sean, people who consume broccoli everyday are half as likely to be diagnosed with heart diseases as compared to others. Dr. Sean stated this after he had monitored diet of 100 patients for 12 months.<br/><br/>Which of the following options weakens the argument stated above?",
+              "options": [
+                "A- According to a famous Science Journal, broccoli has no relation with heart diseases at all.",
+                "B- People who were monitored during this study belonged to the same town.",
+                "C- Everyone whose diet was being monitored was supposed to spend 30 minutes each day jogging.",
+                "D- There are different kinds of broccoli available in the market these days, some of which are artificially manufactured.",
+                "E- Dr. Sean doesn't hold a degree from one of the lesser known universities."
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Explanation: We chose option C as correct because it weakens Dr. Sean's argument the most. According to Dr. Sean, it was broccoli which decreased the heart problems, but at the same time, it's equally possible that it was because of the half hour daily jogging practice which prevented heart complications in the test subjects."
+            },
+            {
+              "id": 7,
+              "question": "<p style=\"font-size:20px\">Mesa College has a long reputation of progressive arts education. It relies heavily on donations from its alumni for scholarships and campus improvements. Mesa College has never had an athletic program, and many current students and alumni say that they think this had led the college to put more focus and financial resources into developing first-class arts programs. This year, Mesa College instituted a football program, over the objections of many students and alumni.<br/><br/>Based on this passage, which of the following is likely to occur?",
+              "options": [
+                "A- Alumni donations to Mesa College will increase.",
+                "B- Alumni will become very involved with boosting the football program at Mesa College.",
+                "C- Alumni donations to Mesa College will decrease.",
+                "D- The college will start offering more athletic scholarships than art scholarships.",
+                "E- The football program will fail."
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Explanation: C is correct because, since alumni consider the fact that Mesa College did not have football to be an asset and objected strongly to the program being established, some alumni are likely to decrease or even stop donations to the college.<br/><br/>A is incorrect because the passage states that alumni objected to the football program. They are unlikely to increase donations as a result of the program.<br/><br/>B is incorrect because the passage states that alumni objected to the program. They are unlikely to become involved in promoting it.<br/><br/>D is incorrect because the passage says nothing about how funds will be allocated for football scholarships.<br/><br/>E is incorrect because it is impossible to tell how the program will fare from the information given."
+            },
+            {
+              "id": 8,
+              "question": "<p style=\"font-size:20px\">Educational research shows that students who attend schools with low faculty/student ratios perform better on standardized tests than students who attend schools with high ratios. Therefore, homeschooling is the best option because the student and parent can work one on one.<br/><br/>Which of the following, if true, most weakens this argument?",
+              "options": [
+                "A- Standardized test results for homeschooled students show that scores are highly related to the parent-teacher's level of education.",
+                "B- Standardized test results from larger schools that require teachers to have a Master's degree are comparable to test results for students from smaller",
+                "C- Studies show that homeschooled students struggle socially.",
+                "D- Standardized test results for homeschooled students show the same range of scores as scores for students from large schools.",
+                "E- Private schooling is prohibitively expensive for many families."
+              ],
+              "correctAnswers": [
+                0
+              ],
+              "explanations": "Explanation: A is correct because it indicates that homeschooled students' success is dependent on the competence of the parent-teacher, not just the small class size.<br/><br/>B is incorrect because it speaks to teacher qualification and preparedness, not to faculty/student ratios.<br/><br/>C is incorrect because it speaks to social outcomes, not academic outcomes, of homeschooling.<br/><br/>D is incorrect because it shows that homeschooled students' performance compares to that of students at large schools, but large schools do not necessarily equate to large faculty/student ratios.<br/><br/>E is incorrect because, while it may be a motivation for homeschooling, the information given does not indicate that the small schools are private."
+            },
+            {
+              "id": 9,
+              "question": "<p style=\"font-size:20px\">Sharla is a better chess player than Marcus.<br/><br/>Marcus is a better chess player than Evelyn.<br/><br/>Olivia routinely beats Evelyn at chess.<br/><br/>What is the likely outcome if Sharla and Olivia play a game of chess?",
+              "options": [
+                "A- Olivia will beat Sharla",
+                "B- Sharla will beat Olivia",
+                "C- The game will end in a draw",
+                "D- Olivia will decide not to play Sharla because she is intimidated",
+                "E- The two women will decide not to play chess at all"
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "Explanation: B is correct because, while Olivia routinely beats Evelyn at chess, Evelyn is still not as good a player as Marcus, who is in turn not as good as Sharla. Sharla is the superior player.<br/><br/>A is incorrect because Olivia routinely beats Evelyn, but Evelyn is considered a worse player than players who are themselves not as good as Sharla.<br/><br/>C is incorrect because they two players do not seem to be evenly matched.<br/><br/>D is incorrect because there is no indication that Olivia will withdraw from the game.<br/><br/>E is incorrect because there is no indication that either woman will decline to play."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Test 3",
+          "questions": [
+            {
+              "id": 0,
+              "question": "<p style=\"font-size:20px\">Online classes are clearly easier than face to face classes. Students can log in whenever they want, and they do not have to show up to class or listen to lectures. I am going to take as many online classes as possible so I can breeze through my degree.<br/><br/>Which of the following, if true, most weakens the argument?<br/><br/>A) Online courses require students to log in five days a week.<br/>B) Face to face classes only meet twice a week.<br/>C) Online courses require students to participate in the discussion by posting to a discussion board at least three times during the week, and also require a major research paper at the end of the course.<br/>D) Many upper level courses are not offered online.<br/>E) There is a higher faculty/student ratio in online courses.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Explanation: C is correct because it demonstrates that an online course can be more work than a face to face course, refuting the speaker's claim that online classes are automatically easier.<br/><br/>A is incorrect because it does not contrast online requirements with face to face requirements.<br/><br/>B is incorrect because it does not contrast face to face requirements with online requirements.<br/><br/>D is incorrect because it only tells us that it would be impossible to complete an entire degree online.<br/><br/>E is incorrect because faculty/student ratio doesn't tell us anything about the ease of a course."
+            },
+            {
+              "id": 1,
+              "question": "<p style=\"font-size:20px\">A major natural grocery chain wants to help address the problem of urban food deserts. It decides to build stores in three of the city's most impoverished neighborhoods. These neighborhoods have not had their own grocery stores in many years, leading residents to live on diets of fast food and convenience foods. The grocery chain feels that building the stores in these neighborhoods will encourage people to eat more healthy foods.<br/><br/>Which of the following, if true, most weakens the argument?",
+              "options": [
+                "A- People in poverty prefer quick, easy food.",
+                "B- The prices at the natural food store are 10-20% higher than the prices at the convenience stores and fast food restaurants.",
+                "C- The grocery store chain will give classes on how to cook with natural foods.",
+                "D- The grocery store chain's other stores are in wealthier neighborhoods.",
+                "E- Most people in the impoverished neighborhoods use food stamps."
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "Explanation:  B is correct because people in the impoverished neighborhoods are unlikely to begin shopping at the natural food market if they are unable to afford the products.<br/><br/>A is incorrect because we do not know from the information provided that the natural food store will not offer quick, easy food.<br/><br/>C is incorrect because giving such classes would likely increase the likelihood that residents would explore the natural foods store.<br/><br/>D is incorrect because it does not tell us anything about the prices or products at the stores and how they might be received in poorer neighborhoods.<br/><br/>E is incorrect because we do not know from the information given if the natural foods store will take food stamps or not."
+            },
+            {
+              "id": 2,
+              "question": "<p style=\"font-size:20px\">A recent study of heart disease interviewed people about what they had eaten for the past month. Researchers found that people who regularly ate pickles had lower rates of heart disease than people who ate them only infrequently. Therefore, eating pickles regularly must help prevent heart disease.<br/><br/>The above statement represents which kind of logical fallacy?",
+              "options": [
+                "A- Ad Hominem",
+                "B- Confusing cause and effect",
+                "C- Post Hoc",
+                "D- Bandwagon",
+                "E- Genetic Fallacy"
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Explanation: C is correct because a post hoc fallacy assumes that, if B occurs after A, then A causes B. The researchers assume that eating pickles (A) causes lower rates of heart disease (B).<br/><br/>A is incorrect because an ad hominem fallacy is based on an attack on the person making the claim, not the claim itself.<br/><br/>B is incorrect because confusing cause and effect means assuming that A causes B because they occur together, where it may be just as likely that B causes A or that there is no causal relationship at all between the two.<br/><br/>D is incorrect because the bandwagon fallacy states that something is true because everyone agrees it is or is doing it.<br/><br/>E is incorrect because a genetic fallacy is based on the original source or proposition being false."
+            },
+            {
+              "id": 3,
+              "question": "<p style=\"font-size:20px\">My uncle is a big supporter of off-shore drilling for oil as a solution to the nation's energy crisis. But of course he would say that. He works for one of the nation's biggest oil companies.<br/><br/>The above is an example of which kind of logical fallacy?",
+              "options": [
+                "A- Post Hoc",
+                "B- Bandwagon",
+                "C- Genetic Fallacy",
+                "D- Ad Hominem",
+                "E- Burden of Proof"
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "Explanation D is correct because an ad hominem fallacy is based on an attack on the person making the claim, not the claim itself.<br/><br/>A is incorrect because a post hoc fallacy assumes that, if B occurs after A, then A causes B.<br/><br/>B is incorrect because the bandwagon fallacy states that something is true because everyone agrees it is or is doing it.<br/><br/>D is incorrect because a genetic fallacy is based on the original source or proposition being false.<br/><br/>E is incorrect because a burden of proof fallacy rests on A making a claim and needing X as proof, with the burden of proof resting on B. B then claims that the claim is false since A offers no proof."
+            },
+            {
+              "id": 4,
+              "question": "<p style=\"font-size:20px\">With the possible exception of Kristeva, all French feminist philosophers are incredibly anti-male.<br/><br/>If the above statement is true, which of the following can you infer?",
+              "options": [
+                "A- English feminist philosophers are anti-male.",
+                "B- French feminist philosophy is entirely without merit.",
+                "C- If someone is a French philosopher they are anti-male.",
+                "D- Kristeva's work is not overtly anti-male.",
+                "E- Men cannot be feminist philosophers."
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "Explanation: D is correct because the speaker allows that Kristeva's work may be an exception to the rule.<br/><br/>A is incorrect because the speaker only mentions French feminist philosophers.<br/><br/>B is incorrect because the speaker does not say that French feminist philosophers' anti-male stance negates their work's usefulness.<br/><br/>C is incorrect because the speaker only talks about French feminist philosophers, not French philosophers as a whole.<br/><br/>E is incorrect because the speaker does not say that all such philosophers are women."
+            },
+            {
+              "id": 5,
+              "question": "<p style=\"font-size:20px\">My history professor is recognized as an expert on the Kennedy assassination. He said in class that there had to be a second shooter on the grassy knoll. Therefore, there had to be another shooter, meaning Oswald was framed.<br/><br/>This argument falls prey to which type of logical fallacy?",
+              "options": [
+                "A- Ad Hominem",
+                "B- Confusing cause and effect",
+                "C- Post Hoc",
+                "D- Bandwagon",
+                "E- Appeal to Authority"
+              ],
+              "correctAnswers": [
+                4
+              ],
+              "explanations": "Explanation:  E is correct because the argument relies on the professor's acknowledge status as an expert on the topic. Thus, if the professor makes a claim about the topic, it is assumed to be true.<br/><br/>A is incorrect because an ad hominem fallacy is based on an attack on the person making the claim, not the claim itself.<br/><br/>B is incorrect because the bandwagon fallacy states that something is true because everyone agrees it is or is doing it.<br/><br/>C is incorrect because a post hoc fallacy assumes that, if B occurs after A, then A causes B<br/><br/>D is incorrect because the bandwagon fallacy states that something is true because everyone agrees it is or is doing it."
+            },
+            {
+              "id": 6,
+              "question": "<p style=\"font-size:20px\">Researchers have noted that African Americans have higher rates of sickle cell anemia than do white Americans. They have also noted that people in some regions of Africa have high level of the sickle cell trait, which is believed to help protect people from malaria. Therefore, the majority of African Americans must be descended from people from the regions of Africa that have high levels of sickle cell trait.<br/><br/>Which of the following, if true, most weakens the argument?",
+              "options": [
+                "A- The areas of Africa with high levels of sickle cell trait were heavily involved in the slave trade.",
+                "B- Slaves in the American South were exposed to malaria at high levels.",
+                "C- People with sickle cell trait are less likely to die from malaria than those without this trait.",
+                "D- The areas of Africa with high levels of sickle cell trait were not areas of heavy slave traffic.",
+                "E- It is impossible to tell from DNA analysis what someone's ancestry is."
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "Explanation: D is correct because the researchers claim that most African Americans were descended from people from these regions of Africa would rest on this area being highly involved in slave traffic, since most African Americans are descended from slaves.<br/><br/>A is incorrect because this would bolster the researchers' claims.<br/><br/>B is incorrect because we cannot infer from high malaria exposure whether or not sickle cell would develop or survive.<br/><br/>C is incorrect because we do not know if high levels of malaria might have killed those without sickle cell.<br/><br/>E is incorrect because the researchers' claims do not rest on DNA level analysis."
+            },
+            {
+              "id": 7,
+              "question": "<p style=\"font-size:20px\">In 2003, Alan used a new type of pesticides in order to increase the net yield of his crops. Because of these new pesticides, the net yield of his crops doubled which made him really happy and he decided to continue which these pesticides. For next four years, the yield of his crops increased consistently compared to the previous years. In 2008, the yield of his crops decreased exponentially, which caused severe financial problems for Alan.<br/><br/>Which of the following statements explains the reason for the drop in net yield this year?<br/><br/>A) Significant and consistent increases in the net yield of the crops from previous years eventually lead to the exhaustion of essential nutrients from the soil.<br/>B) Alan was diagnosed with diabetes in 2006 and he didn't put in equally good effort this time to increase the yields.<br/>C) Other farms also started using the same pesticides which led to a decreased efficiency of these pesticides<br/>D) As a result of economic recession, the market size for the crops which Alan's farm produced shrank significantly.<br/>E) The region where Alan's farm was located experienced a historic drought two years ago which led to decreased overall yield.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswers": [
+                0
+              ],
+              "explanations": "Explanation: Option A is the correct answer. As stated above, the net yield of the corps increased in these four years, significantly and consistently.  This might have led to decrease in the essential nutrients in the soil and the crops were deprived of important chemicals this time.<br/><br/>Option B: He was diagnosed with diabetes 2 years ago, in 2006 but that didn't affect the net yield of crops in 2007. Therefore, the decrease in yield in 2008 doesn't seem to be because of his diabetes.<br/><br/>Even if other farm started using the same pesticides that should not have affected the yield of Alan's farm. So, option C is incorrect.<br/><br/>In the original statement given the question, it is clearly stated that the yield of the farm decreased, and not the buyers. So option D is incorrect.<br/><br/>For option E, the drought occurred two years ago and last year, the yield was fine. So, drought wasn't the reason for decrease in the yield this year."
+            },
+            {
+              "id": 8,
+              "question": "<p style=\"font-size:20px\">Our company wants to ensure that all employees are honest. One of the questions we ask each new job applicant is if he or she has ever stolen from an employer. We are confident that this will help weed out dishonest people.<br/><br/>Which of the following, if true, exposes the major flaw in the argument?",
+              "options": [
+                "A- It is illegal to ask people if they have ever committed a crime.",
+                "B- People who have stolen from a former employer are unlikely to admit this to a prospective new employer.",
+                "C- Just because someone has never stolen before doesn't mean he or she might not steal in the future.",
+                "D- Just because someone has stolen in the past doesn't mean he or she will steal again.",
+                "E- People lie when they really want a job."
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "Explanation: B is correct because the question relies on people to self-report behavior they know is wrong. They are unlikely to do so if they know that the likelihood of their being hired rests on their answer. Dishonest people will be dishonest if it serves them.<br/><br/>A is incorrect because we do not have any information about the legality of the question.<br/><br/>C is incorrect because, while it might be true, it does not speak to the usefulness of the interview question for weeding out potential thieves.<br/><br/>D is incorrect because, while it might be true, it does not speak to the usefulness of the interview question for weeding out potential thieves.<br/><br/>E is incorrect because it assumes that all people will lie and does not address the usefulness of the interview question."
+            },
+            {
+              "id": 9,
+              "question": "<p style=\"font-size:20px\">Diane does not think that gay people should get married. She argues that, if gay couples are allowed to get legally married, the next step will be to legalize polygamy and child marriage. Clearly, if we are going to save American society, we must not legalize gay marriages.<br/><br/>Which logical fallacy does Diane's argument employ?",
+              "options": [
+                "A- Red Herring",
+                "B- Post Hoc",
+                "C- Bandwagon",
+                "D- Confusing cause and effect",
+                "E- Slippery Slope"
+              ],
+              "correctAnswers": [
+                4
+              ],
+              "explanations": "Explanation:  E is correct because the slippery slope fallacy states that if A happens, B is likely to happen. B is undesirable, so we must make sure A does not happen.<br/><br/>A is incorrect because the red herring fallacy involves introducing an unrelated topic so that the contentious topic is abandoned rather than arguing against the contentious topic.<br/><br/>B is incorrect because a post hoc fallacy assumes that, if B occurs after A, then A causes B.<br/><br/>C is incorrect because the bandwagon fallacy states that something is true because everyone agrees it is or is doing it.<br/><br/>D is incorrect because confusing cause and effect means assuming that A causes B because they occur together, where it may be just as likely that B causes A or that there is no causal relationship at all between the two."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "GMAT Sentence Correction Practice",
+      "tests": [
+        {
+          "id": 0,
+          "name": "Test 1",
+          "questions": [
+            {
+              "id": 0,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/><u>For homes in typically colder geographic regions</u>, it is particularly important to have effective and efficient heating systems.",
+              "options": [
+                "For homes in typically colder geographic regions",
+                "For people in homes in typically colder geographic regions",
+                "For homes in typically cold geographic regions",
+                "People in typically colder geographic regions",
+                "Homes in typically colder geographic regions"
+              ],
+              "correctAnswers": [
+                0
+              ],
+              "explanations": "The problem with this sentence is that it makes sense conversationally but not in written English. You cannot just say \"colder geographic regions\" when there is no object of comparison. Colder compared to what? An area can easily be identified as cold without a prior standard (such as the southern regions or areas near the equator) but not \"colder.\" Also, it is wrong to refer to people as the subject of this sentence because the second clause states that \"it is particularly important to have...heating system.\" People cannot have heating systems usually. Therefore, choice C, which uses a descriptive rather than comparative term, is the best choice."
+            },
+            {
+              "id": 1,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>Inside the glove compartment were legal documents, pictures, <u>and there were a few napkins from the coffee shop, but no gloves.</u>",
+              "options": [
+                "A- and there were a few napkins from the coffee shop, but no gloves.",
+                "B- and there were a few napkins from the coffee shop, but not any gloves.",
+                "C- and napkins from the coffee shop, no gloves were there.",
+                "D- and napkins from the coffee shop, but no gloves.",
+                "E- and napkins from the coffee shop, there were no gloves."
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "The correct answer is D (A and B break the parallelism of the list of things in the glove compartment. C and E are run-ons.)"
+            },
+            {
+              "id": 2,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>Concerns about global warming have grown into actual efforts sanctioned by non-governmental organizations and governments that not only work to <u>understand global warming and also to prevent it.</u>",
+              "options": [
+                "A- understand global warming and also to prevent it.",
+                "B- understand global warming but also to prevent it.",
+                "C- understand global warming yet also to prevent it.",
+                "D- understand global warming but also to prevent its growth.",
+                "E- understand global warming yet also to prevent it's growth."
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "The original underlined portion is incorrect because of the improper use of the \"not only...but also...\" structure. Only choice B and choice D use this structure, but choice D accurately adds \"to prevent its growth.\" The sentence began by discussing growth because global warming is a dynamic problem that has not just stagnated; it continually has changed. Choice D corrects the structure and also uses the proper possessive form of it (i.e. its)."
+            },
+            {
+              "id": 3,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>Even though I have seen the movie countless times, I still <u>laughed when the sheriff throws his mug.</u>",
+              "options": [
+                "A- laughed when the sheriff throws his mug.",
+                "B- laugh when the sheriff throws his mug.",
+                "C- laugh when the sheriff threw his mug.",
+                "D- laughed whenever the sheriff throws his mug.",
+                "E- laugh when the sheriff will throw his mug."
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "The correct answer is B (A, C, D, and E all have verb tense mismatches.)"
+            },
+            {
+              "id": 4,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/><u>High school reunions are usually looked forward to by alumni that have worked hard since graduation and now consider themselves successful.</u>",
+              "options": [
+                "A- High school reunions are usually looked forward to by alumni that have worked hard since graduation and now consider themselves successful.",
+                "B- High school reunions are usually looked forward to by alumni who have worked hard since graduation and now consider themselves successful.",
+                "C- Alumni who have worked hard since graduation and now consider themselves successful usually look forward to high school reunions.",
+                "D- Alumnus that have worked hard since graduation and now consider themselves successful usually look forward to high school reunions.",
+                "E- High school reunions are usually looked forward to by alumni that have worked hard since graduation and now consider yourselves successful."
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "The problem with this sentence is that it uses the passive voice and a mistaken pronoun to refer to people (i.e. that). Choice C and choice D change the passive voice to the active voice by writing that the alumni commit the action, rather than writing that the action was committed by the alumni. Also, choice D mistakenly changes \"alumni\" (plural) to \"alumnus\" (singular). Choice C is the best choice because \"alumni\" is plural as it should be based on the logic of the sentence (not just one person looks forward to high school reunions) and the active voice is properly implemented."
+            },
+            {
+              "id": 5,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/><u>Yesterday I fell down the stairs and then</u> tried to act like I did so on purpose.",
+              "options": [
+                "A- Yesterday I fell down the stairs and then",
+                "B- Yesterday I fell down the stairs, I",
+                "C- I fell down the stairs yesterday, I",
+                "D- After I fell down the stairs yesterday; I",
+                "E- Falling down the stairs; I"
+              ],
+              "correctAnswers": [
+                0
+              ],
+              "explanations": "The correct answer is A (B and C are run-ons. D and E misuse their semicolons: the parts before them are not independent clauses.)"
+            },
+            {
+              "id": 6,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>Lockers in schools are often dilapidated, <u>making student's valuables susceptible to theft.</u>",
+              "options": [
+                "A- making student's valuables susceptible to theft",
+                "B- which makes student's valuables susceptible to theft",
+                "C- that makes student's valuables susceptible to theft",
+                "D- that makes students' valuables susceptible to theft",
+                "E- making students' valuables susceptible to theft"
+              ],
+              "correctAnswers": [
+                0
+              ],
+              "explanations": "This sentence is wrong because of a possession error. Not just one student possesses lockers and many valuables. The sentence refers to \"lockers in schools,\" and your typical student doesn't just have a ton of lockers to choose from! Because multiple entities (i.e. people) possess the valuables referred to, the clause needs to become \"making students' valuables susceptible to theft.\" Choices A, B and C all fail to correct this possession error, and choice D mistakenly places \"that\" after the comma when \"which\" would be the only appropriate way to begin the descriptive clause. If there was no comma or a replacement semi-colon preceding (coming before) \"that\" then the sentence would have been okay. Only choice E corrects the possession error and makes a fitting descriptive clause."
+            },
+            {
+              "id": 7,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>Fleeing the horde of zombies on foot, <u>an apparently safe building became visible to the terrified couple.</u>",
+              "options": [
+                "A- an apparently safe building became visible to the terrified couple.",
+                "B- the terrified couple spotted a building that looked safe.",
+                "C- a safe looking building was spotted by the terrified couple.",
+                "D- the terrified couple's luck changed when they spotted a safe looking building.",
+                "E- their fear subsided somewhat when the terrified couple would spot a safe looking building."
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "The correct answer is B (A, C, D, and E are all dangling modifiers. Who was fleeing the horde? The terrified couple was.)"
+            },
+            {
+              "id": 8,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>Natural disasters <u>have been increasingly effecting</u> nearly every part of the world in the past decade with catastrophic tornadoes, hurricanes and tsunamis.",
+              "options": [
+                "A- have been increasingly effecting",
+                "B- has been increasingly effecting",
+                "C- have been increasingly affecting",
+                "D- will be increasingly effecting",
+                "E- will be increasingly affecting"
+              ],
+              "correctAnswers": [
+                0
+              ],
+              "explanations": "The only problem with the underlined portion of this sentence is the use of the word \"effecting\" instead of \"affecting.\" When an object/s undergoes changes, these changes are effects such as in the following sentence: John's excellent attendance at school has had positive effects on his education. However, in the verb form, \"effects\" turns into \"affects\" such as in the following sentence: John's excellent attendance has affected his education. Noun (effect) vs. verb (affect). Only choice C and choice E properly used \"affecting\" but choice E uses the future tense when the sentence clearly describes an occurrence of the past (\"...in the past decade...\"). Choice C is correct."
+            },
+            {
+              "id": 9,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>For every song that is a hit, it is critical to have a quality \"beat\" and quality lyrics; <u>however</u>, music companies hire professional producers and song writers.<br/><br/>",
+              "options": [
+                "A- however",
+                "B- therefore",
+                "C- nevertheless",
+                "D- and",
+                "E- yet"
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "The underlined portion of this sentence is wrong because the conjunction \"however\" needs to properly reflect the supporting nature of the second clause—NOT a contrasting relationship. Choice A, C and E all reflect a contrasting relationship when a supporting and united relationship should be here. Choice B and D are left. Choice B is best because the initial clause creates a premise (the requirements for a good song) that the second clause needs to support (how the se requirements are met); therefore is the ideal transition for this type of cause-effect relationship."
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Test 2",
+          "questions": [
+            {
+              "id": 0,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>Firefighters and police officers risk their lives often by stepping into the way of danger physically; <u>therefore</u>, professionals such as doctors and lawyers have an equally significant impact on individuals' lives medically and legally.",
+              "options": [
+                "A- therefore",
+                "B- but",
+                "C- nevertheless",
+                "D- as a result",
+                "E- and"
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "The first clause (everything before the semi colon) definitely does not cause what is explained in the second clause (everything after the semi colon), so \"therefore\" is an inappropriate transition. This sentence is presenting contrasting professions (firefighter/police officer and doctor/lawyer) since two are viewed as blue-collar (working class) and the others are white-collar (professional); therefore, a contrasting conjunction is needed. Choice A (\"therefore\"), choice D (\"as a result\") and choice E (\"and\") do not present contrasting conjunctions. In this sentence \"but\" is not your best option for a conjunction. A semi-colon is used, so the three simple conjunctions (and/but/yet/etc.) are not as appropriate as the complex conjunctions (therefore/however/nevertheless/etc.). If just a comma was used, then \"but\" would have been appropriate (i.e. \"...into the way of danger physically, but professionals such as doctors...\"). So now it's down to \"nevertheless.\" Choice C is your best answer."
+            },
+            {
+              "id": 1,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/><u>In many cultures they consider fish eggs a delicacy.</u>",
+              "options": [
+                "A- In many cultures they consider fish eggs a delicacy.",
+                "B- In many cultures fish eggs are considered a delicacy.",
+                "C- In many cultures a delicacy is considered to be fish eggs.",
+                "D- Fish eggs, a delicacy in many cultures.",
+                "E- They consider fish eggs to be a delicacy in many cultures."
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "The correct answer is B (A is tempting, but the pronoun \"they\" is vague. E has the same vague pronoun problem. C is just weird all over. D is a fragment.)"
+            },
+            {
+              "id": 2,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>Sports are a significant part of life for people all across the world, as was demonstrated in 2006 when billions of people came together to be involved with the <u>World Cup either through playing, watching or thru advertising.</u>",
+              "options": [
+                "A- World Cup either through playing, watching or thru advertising.",
+                "B- world cup either through playing, watching or thru advertising.",
+                "C- World Cup either through playing, watching or through advertising.",
+                "D- World Cup either through playing, watching or advertising.",
+                "E- World Cup either through playing, watching or advertising for it."
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "This sentence tests your knowledge of capitalization and awareness of parallelism. The original sentence is incorrect because choice A destroys the parallelism (i.e. thru advertising instead of simply \"advertising\") and uses the informal spelling of through (i.e. \"thru\"). Only choices D and E correct the parallelism error; however, the list should strictly contain gerunds in order to be parallel, so \"advertising for it\" is not the best choice. By ending with \"for it\" the author is also implying that one may \"play for it\" and \"watch for it,\" and although one may play for the World Cup through a grammar stretch, one cannot possibly \"watch for it\" and do the same thing as one who simply \"watches it.\" Choice D uses the appropriate capitalization (because the World Cup is a major sports event it is a proper noun that must be capitalized) and maintains strict parallelism in the concluding list of ways to be involved."
+            },
+            {
+              "id": 3,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>The argument <u>between Paarin and me about the dent in his car continued</u> until the early morning.",
+              "options": [
+                "A- between Paarin and me about the dent in his car continued",
+                "B- between Paarin and I about the dent in his car continued",
+                "C- about the dent in his car continued for Paarin and I",
+                "D- on the dent in his car between Paarin and me continued",
+                "E- between Paarin and I on the dent in his car continued"
+              ],
+              "correctAnswers": [
+                0
+              ],
+              "explanations": "The correct answer is A (B, C, and E all have pronoun case errors: when the pronoun is the object of a preposition like \"between,\" you need to use the objective case. D is awkward, especially in its misused idiom: \"argument on.\")"
+            },
+            {
+              "id": 4,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>During the <u>summer many students go away to summer camps that teach them skills about camaraderie, perseverance and integrity.</u>",
+              "options": [
+                "A- summer many students go away to summer camps that teach them skills about camaraderie, perseverance and integrity.",
+                "B- Summer many students go away to summer camps that teach them skills about camaraderie, perseverance and integrity.",
+                "C- summer many students go away to camps that teach them skills about camaraderie, perseverance and integrity.",
+                "D- summer many students go away to summer camps that teach them skills about camaraderie, perseverance and maintaining integrity.",
+                "E- Summer many students go away to camps that teach them skills about camaraderie, perseverance and integrity."
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "Only choice C corrects the redundancy error in this sentence of writing \"...summer camps...\" after already stating that this event occurs \"During the summer...\" Choice A, B and D suffer such redundancy. Choice D also breaks the list's parallelism (values such as camaraderie and perseverance that should be followed simply by \"integrity\"). Choice C and E remain, but choice E makes the same mistake of choice B by capitalizing a season. Although it may look better, seasons are NOT supposed to be capitalized unless they appear in a title or a proper noun."
+            },
+            {
+              "id": 5,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>A consummate gentleman, <u>Stefan's etiquette and social grace was unmatched.</u>",
+              "options": [
+                "A- Stefan's etiquette and social grace was unmatched.",
+                "B- Stefan's etiquette and social grace were unmatched.",
+                "C- Stefan's etiquette as well as his social grace were unmatched.",
+                "D- Stefan possessed unmatched etiquette and social grace.",
+                "E- Stefan's social grace was matched only by his etiquette."
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "The correct answer is D (A, B, C, and E are all dangling modifiers. A has a verb agreement problem, too.)"
+            },
+            {
+              "id": 6,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>In countries such as China the government is recognizing the advantages of <u>a capitalist market rather than communism and adjust</u> economic policy accordingly.",
+              "options": [
+                "A- capitalist market rather than communism and adjust",
+                "B- capitalist market rather than Communism and adjust",
+                "C- capitalist market rather than a communist market and adjust",
+                "D- capitalist market rather than a communist market and adjusting",
+                "E- Capitalistic market nor a Communist market and adjusting"
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "The problem with this sentence is in parallel structure. The test is very particular about being consistent about the forms of words used. So specifically since the sentence refers to a capitalist market, then the sentence must refer to a communist market—not communism, which is an ideology rather than a market system in this context. Only choices B, D and E remain. Choice E commits terrible capitalization (neither \"capitalist\" nor \"communist\") mistakes and structure errors (where does the \"nor\" fit in?! It does not!) Only choice B and choice D remain now, but B mistakenly capitalizes communism and does not change \"adjust\" to match the parallel verb (i.e. recognizing). Choice D uses the right adjective forms of capitalism and communism, does not make capitalization errors and maintains parallel sentence structure."
+            },
+            {
+              "id": 7,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>Most of my favorite movies contain <u>slapstick humor, however physical comedy is not</u> the only way to make me laugh.",
+              "options": [
+                "A- slapstick humor, however physical comedy is not",
+                "B- slapstick humor, but physical comedy is not",
+                "C- slapstick humor, and physical comedy is not",
+                "D- slapstick humor; physical comedy is not",
+                "E- slapstick humor, but it is not physical comedy that is"
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "The correct answer is B (A is a run-on: \"however\" is NOT a conjunction. C and D are missing contrast. E is not at all concise.)"
+            },
+            {
+              "id": 8,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>Learning a new language can be difficult for people <u>after one reaches a certain age</u>; abilities needed to retain and apply new linguistic information deteriorate with time.",
+              "options": [
+                "A- after one reaches a certain age",
+                "B- after they reach a certain age",
+                "C- after they reaches certain ages",
+                "D- after it reaches a certain age",
+                "E- after you reach a certain age"
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "The underlined portion of this sentence is wrong because the sentence refers to people in general. Because a plural third person form of a pronoun is needed (because of the reference to \"people\"), \"one\" ,\"it\", and \"you\" are all inappropriate responses. Choice A, D and E are all incorrect. Choice B is better than choice C because of the implied logic. People can reach a defined age; it is odd to say that multiple people are simultaneously reaching multiple ages—what is certain then? It's almost an oxymoron to say certain ages in this context, although it is perfectly fine in other situations (i.e. This board game is only for people of certain ages). Yet the more defining difference is the singular verb form of choice C (i.e. reaches) mistakenly in place of the plural verb form of choice B (i.e. reach). Choice B is the best answer."
+            },
+            {
+              "id": 9,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>A growing technology trend is to merge multiple devices with complimentary functions such as a phone, music player and <u>the scheduling features of a planner.</u>",
+              "options": [
+                "A- the scheduling features of a planner.",
+                "B- and a planner with scheduling features.",
+                "C- and scheduling features.",
+                "D- scheduling features.",
+                "E- a planner."
+              ],
+              "correctAnswers": [
+                4
+              ],
+              "explanations": "Choice E is correct. The sentence is incorrect because it does not follow parallelism. A list that begins by naming devices (i.e. phone, music player) must continue and finish in that way. Although it is informative to include the details about a planner's features, it should be accompanied by the features of a phone and a music player if that is the way the sentence is being written. Therefore, choices A, B, C and D are incorrect. Choice B and C even add \"and\" again making the sentence read \"...music player and and...\" which is clearly wrong! Be careful; the test wants to catch you off guard. Only choice E is direct and maintains parallelism."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Test 3",
+          "questions": [
+            {
+              "id": 0,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/><u>Jewelry is an accessory used by members of all classes including watches, necklaces and earrings.</u>",
+              "options": [
+                "A- Jewelry is an accessory used by members of all classes including watches, necklaces and earrings.",
+                "B- Jewelry, including watches, necklaces and earrings, is an accessory used by members of all classes.",
+                "C- Jewelry, including watches, necklaces and earrings, are an accessory used by members of all classes.",
+                "D- Jewelry is accessorized by members of all classes including watches, necklaces and earrings.",
+                "E- Jewelry is an accessory used by members of all classes which includes watches, necklaces and wearing earrings."
+              ],
+              "correctAnswers": [
+                1
+              ],
+              "explanations": "The problem with this sentence is the misplacement of the clause that describes jewelry. By placing \"...including watches, necklaces, and earrings.\" after \"classes\" the reader gets the impression that the classes involves different types of jewelry. By moving the clause, choice B and choice C improve the sentence. However, choice C commits the error of using a plural form of \"to be\" (i.e. are) to refer to a collective noun like jewelry that demands a singular verb (i.e. is). Only choice B places the clause correctly after \"jewelry\" and ensures that the verb agrees with the subject."
+            },
+            {
+              "id": 1,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>There are many reasons to see I Heart <u>Huckabees, Jason Schwartzman's performance being one reason.</u>",
+              "options": [
+                "A- Huckabees, Jason Schwartzman's performance being one reason.",
+                "B- Huckabees, Jason Schwartzman's performance is only one of them.",
+                "C- Huckabees; Jason Schwartzman's performance, for one.",
+                "D- Huckabees, the performance of Jason Schwartzman is one of them.",
+                "E- Huckabees, including Jason Schwartzman's performance."
+              ],
+              "correctAnswers": [
+                4
+              ],
+              "explanations": "The correct answer is E (A has \"being\" and is redundant to boot. B and D are run-ons. C is semicolon misuse: the semicolon is not followed by an independent clause.)"
+            },
+            {
+              "id": 2,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>Fraternities <u>are a great way to make friends and</u> learn important lessons of loyalty and compassion.",
+              "options": [
+                "A- are a great way to make friends and",
+                "B- is a great way to make friends and",
+                "C- will have been a great way to make friends and",
+                "D- will be a great way to make friends and",
+                "E- is a great way to make friends however"
+              ],
+              "correctAnswers": [
+                0
+              ],
+              "explanations": "The original sentence is correct as written. There is no need to change the verb form or tense. Choice A is correct."
+            },
+            {
+              "id": 3,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>Lindsey knows that the reason people dislike her <u>is because of her being a</u> Philadelphia Phillies fan.",
+              "options": [
+                "A- is because of her being a",
+                "B- is because she is a",
+                "C- is that she is a",
+                "D- is her being a",
+                "E- is that of her being a"
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "The correct answer is C (A, D, and E all use \"being\" incorrectly. B is redundant and therefore not concise: you don't need to say \"the reason\" and \"because,\" one or the other will do.)"
+            },
+            {
+              "id": 4,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>Sports commentators often provide informative and witty insight during games that <u>enhance the sports-watching experience.</u>",
+              "options": [
+                "A- enhance the sports-watching experience.",
+                "B- enhance the experience.",
+                "C- enhances the sports-watching experience.",
+                "D- enhances the sports-watching experience for fans.",
+                "E- have enhanced the sports-watching experiences for fans."
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "The problem with this sentence is that the second action verb (i.e. enhance) needs to be singular (i.e. enhances) because this verb refers to \"insight.\" Some readers may believe that because there are two characteristics to the insight (i.e. informative and witty) there should be a plural form of the verb. Choice C and choice D correct this agreement error of the verb; however, choice D is wordy. Obviously fans are the ones who watch sports, so why restate this? Choice C therefore is most direct and grammatically sound."
+            },
+            {
+              "id": 5,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/><u>A shockingly indelible moment</u>, I remember exactly where I was and what I was doing when I found out that Kurt Cobain had died.",
+              "options": [
+                "A- A shockingly indelible moment,",
+                "B- A shocking, indelible moment,",
+                "C- It was a shocking and indelible moment;",
+                "D- Shocked and indelible,",
+                "E- Shocking and I will never forget it,"
+              ],
+              "correctAnswers": [
+                2
+              ],
+              "explanations": "The correct answer is C (A, B, D, and E all have dangling modifier errors, because they aren't describing what comes after the comma. Indelible means not able to be erased; you wouldn't say that about a person in this context.)"
+            },
+            {
+              "id": 6,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>Since the work force is becoming increasingly competitive in light of technological advances and outsourcing, <u>therefore, it is even more basic for students to complete high school and attain at least a bachelor's degree.</u>",
+              "options": [
+                "A- therefore, it is even more basic for students to complete high school and attain at least a bachelor's degree.",
+                "B- moreover, it is even more basic for students to complete high school and attain at least a bachelor's degree.",
+                "C- but, it is even more basic for students to complete high school and attain at least a bachelor's degree",
+                "D- so it is even more basic for students to complete high school and attain at least a bachelor's degree.",
+                "E- it is even more basic for students to complete high school and attain at least a bachelor's degree."
+              ],
+              "correctAnswers": [
+                4
+              ],
+              "explanations": "This sentence is a run-on sentence and can be fixed with the deletion of one word: \"therefore.\" By beginning with a conjunction such as \"Since\" the sentence already has a descriptive clause in motion and just needs to be followed by a succinct (brief) statement of what the background of the first clause was describing. All of the choices except choice E use this erroneous second conjunction (i.e. therefore, moreover, but, so), so they must be eliminated. Choice E is grammatically sound."
+            },
+            {
+              "id": 7,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/>Study the ancient fighting art of Hapkido and you will learn to avoid directly matching <u>your strength against your opponent's.</u>",
+              "options": [
+                "A- your strength against your opponent's.",
+                "B- yours against your opponent.",
+                "C- your strength against your opponent.",
+                "D- your strength with your opponent.",
+                "E- your opponent's strength against one's own."
+              ],
+              "correctAnswers": [
+                0
+              ],
+              "explanations": "The correct answer is A (B doesn't say what's being matched with what. C, D, and E all have some sort of parallelism error.)"
+            },
+            {
+              "id": 8,
+              "question": "<p style=\"font-size:20px\">Plenty of high school students <u>spend their time involved in the community by working with peers, young children and also helping senior citizens.</u>",
+              "options": [
+                "A- spend their time involved in the community by working with peers, young children and also helping senior citizens.",
+                "B- spend his time involved in the community by working with peers, young children and also helping senior citizens.",
+                "C- spend one's time involved in the community by working with peers, young children and also helping senior citizens.d.",
+                "D- spend their time involved in the community by working with peers, young children and senior citizens.",
+                "E- spend their time involving in the community by working with peers, young children and also helping senior citizens."
+              ],
+              "correctAnswers": [
+                3
+              ],
+              "explanations": "By breaking the parallelism (continuity of a pattern, in this case), the underlined portion of this sentence must be changed. By simply changing \"also helping senior citizens\" to \"senior citizens\" the list is clearly discussing people in the community from various age groups. Each other choice besides D uses incorrect pronouns (i.e. his) and/or parallel structure (i.e. also helping senior citizens)."
+            },
+            {
+              "id": 9,
+              "question": "<p style=\"font-size:20px\">Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.<br/><u>McCarthyism was an ideology and an applied pursuit that arose in the middle of the twentieth century and targeted communists in the United States state department.</u>",
+              "options": [
+                "A- McCarthyism was an ideology and an applied pursuit that arose in the middle of the twentieth century and targeted communists in the United States stat",
+                "B- McCarthyism was an ideology, an applied pursuit that arose in the middle of the twentieth century, targeted communists in the United States state depa",
+                "C- McCarthyism was an ideology and an applied pursuit that arose in the middle of the twentieth century and targeted Communists in the United States stat",
+                "D- McCarthyism will be an ideology and an applied pursuit that arose in the middle of the twentieth century and targeted communists in the United States",
+                "E- McCarthyism was an ideology and an applied pursuit that arose in the middle of the twentieth century and targeted communists in the United States Stat"
+              ],
+              "correctAnswers": [
+                4
+              ],
+              "explanations": "The original choice is wrong strictly for the lack of capitalization of \"State Department.\" Choice B complicates problems more than A by deleting certain words that turn the sentence into a run-on sentence. Choice C fails to capitalize \"State Department\" (it needs to be capitalized because it is a proper noun—the United States State Department, not just \"a state department\"). Although choice D corrects the capitalization error, it changes \"was\" to \"will be,\" which is an illogical verb tense (i.e. future) because later in the sentence it is stated that the ideology arose \"in the middle of the twentieth century,\" which has already passed. Choice E corrects the capitalization error and leaves the sentence as it is. Sometimes just minor changes are needed!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
